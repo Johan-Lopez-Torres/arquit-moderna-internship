@@ -1,11 +1,12 @@
 import React from "react";
-import Card from "@components/Card"
+import { CardEmployee } from "../components/Card";
 
 const page = () => {
   return (
     <>
       <div className="mx-10 min-h-screen ">
-        <Card />
+        <CardEmployee />
+        
       </div>
     </>
   );

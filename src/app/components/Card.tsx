@@ -1,8 +1,8 @@
-const Card = () => {
+export const CardEmployee = () => {
   return (
     <div className=" card w-96 bg-base-100  mt-10 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ">
       <div className="avatar justify-center ">
-        <div className="w-52 rounded-full  ring-primary ring-8 	 ring-offset-base-100 ring-offset-4">
+        <div className="w-52 rounded-full  ring-violet-500 ring-8 	 ring-offset-base-100 ring-offset-4">
           <img src="https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg" />
         </div>
       </div>
@@ -16,11 +16,6 @@ const Card = () => {
           laboriosam assumenda quidem dicta vero minima excepturi, voluptas
           autem similique, porro, esse consequatur.
         </p>
-        {/* 
-        <div className="card-actions mt-4">
-          <button className="btn btn-primary w-48">Buy Now</button>
-        </div> 
-        */}
         <a href="https://facebook.com" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -53,4 +48,50 @@ const Card = () => {
   );
 };
 
-export default Card;
+export const CardService = () => {
+  return (
+    <>
+      <div className="card w-96 bg-base-100 shadow-xl m-14">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">
+            Shoes!
+            <div className="badge badge-secondary">NEW</div>
+          </h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Fashion</div>
+            <div className="badge badge-outline">Products</div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const CardTestimonial = () => {
+  return (
+    <>
+      <div className="card card-side bg-base-100 shadow-xl max-w-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            alt="Movie"
+          />
+        </figure>
+        <div className="card-body ">
+          <h2 className="card-title">New movie is released!</h2>
+          <p>Click the button to watch on Jetflix app.</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Watch</button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
