@@ -27,7 +27,6 @@ const config: Config = {
         bermuda: "#00CABE",
       },
     },
-    
   },
   themes: [
     {
