@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import styles from "./styles/Footer.module.css";
 
 const Footer = () => {
   return (
@@ -8,10 +8,10 @@ const Footer = () => {
         className={`bg-neutral footer footer-center p-10  text-base-content rounded bg mt-10`}
       >
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Servicios</a>
-          <a className="link link-hover">Testimonios</a>
+          <Link  href={"/nosotros"} className="link link-hover">About us</Link>
+          <Link href={"/contacto"}  className="link link-hover">Contact</Link>
+          <Link  href={"/servicios"}  className="link link-hover">Servicios</Link>
+          <Link  href={"/testimonios"}  className="link link-hover">Testimonios</Link>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">

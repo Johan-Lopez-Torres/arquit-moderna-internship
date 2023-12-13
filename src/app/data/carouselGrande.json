@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "ARE AWESOME",
+      "tagline": "NEXTJS 13 & SWIPER SLIDER",
+      "image": "https://images.unsplash.com/photo-1682687218608-5e2522b04673?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Roberto Nickson",
+          "link": "https://content.r9cdn.net/rimg/dimg/60/18/432b04a1-hood-215137-177717114f9.jpg?crop=true&width=1020&height=498",
+          "type": "btn-dark btn-circle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "GIVE IT A SHOOT",
+      "tagline": "IF YOU LIKE IT",
+      "image": "https://plus.unsplash.com/premium_photo-1675804669850-a1c3b87589d5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Julia M Cameron",
+          "link": "https://www.pexels.com/@julia-m-cameron/",
+          "type": "btn-dark btn-circle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "PREMIER LEAGUE",
+      "tagline": "IF YOU LIKE IT",
+      "image": "https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "MACHESTER CITY IS THE FUCKING CHAMPIONS",
+          "link": "https://www.linkedin.com/in/johan-lopez-torres/",
+          "type": "btn-dark btn-circle"
+        }
+      ]
+    }
+  ]
+  

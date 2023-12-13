@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-        <div className="navbar bg-base-100 text-white font-semibold ">
+        <div className="navbar bg-base-100 text-gray-400 font-semibold py-3 ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">Arquit moderna</a>
+          <a className="btn btn-ghost text-2xl text-rose-600 font-extrabold">ARQUIT MODERNA</a>
         </div>
         <div className="flex-none ">
           <ul className="menu menu-horizontal px-1 text-lg">

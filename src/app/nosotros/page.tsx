@@ -4,7 +4,7 @@ import { CardEmployee } from "../components/Card";
 const page = () => {
   return (
     <>
-      <div className="mx-10 min-h-screen ">
+      <div className=" flex flex-row gap-10 flex-wrap ml-28 min-h-screen ">
         <CardEmployee />
         
       </div>
