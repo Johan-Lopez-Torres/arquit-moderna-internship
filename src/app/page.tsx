@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import SliderPrincipal from "./components/SliderPrincipal";
+import SliderPrincipal from "@components/CarouselMini";
 import TextoDifuminado from "./components/sub-componentes/TextoDifuminado";
 
 const Page = async () => {
