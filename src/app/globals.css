@@ -58,6 +58,13 @@
   left: 0;
   right: 0;
   height: 10px;
-  background: #9032BB;
+  background: #9032bb;
   transform-origin: 0%;
+}
+
+.swiper-paginations {
+  background-color: yellow;
+  position: z-index 1000;
+  left: 50%;
+  transform: translateX(-50%);
 }

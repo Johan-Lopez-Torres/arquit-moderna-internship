@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
         <div className="navbar bg-base-100 text-gray-400 font-semibold py-3 ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-2xl text-rose-600 font-extrabold">ARQUIT MODERNA</a>
+          <Link href={"/"} className="btn btn-ghost text-2xl text-rose-600 font-extrabold">ARQUIT MODERNA </Link>
         </div>
         <div className="flex-none ">
           <ul className="menu menu-horizontal px-1 text-lg">

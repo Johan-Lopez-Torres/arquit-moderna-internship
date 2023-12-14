@@ -33,7 +33,7 @@ interface DemoSliderProps {
 
 const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
   return (
-    <section className="w-full">
+    <section className="w-full ">
       <div className=" h-screen">
         <ul className="h-full w-full">
           <Swiper

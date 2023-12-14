@@ -18,7 +18,7 @@ const dataCustomer = DataCustomers.map((customers, index) => (
 //data de los trabajadores
 const dataEmployee = DataEmployee.map((employee, index) => (
   <div className=" card w-96 bg-base-100  mt-10 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ">
-    <div className="avatar justify-center ">
+    <div className="avatar justify-center mt-5 ">
       <div className="w-52 rounded-full  ring-violet-500 ring-8 	 ring-offset-base-100 ring-offset-4">
         <img src={employee.image} key={index} />
       </div>
@@ -66,25 +66,7 @@ export const CardEmployee = () => {
 export const CardService = () => {
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl m-14">
-        <figure>
-          <img
-            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">
-            Shoes!
-            <div className="badge badge-secondary">NEW</div>
-          </h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div>
-            <div className="badge badge-outline">Products</div>
-          </div>
-        </div>
-      </div>
+      
     </>
   );
 };
