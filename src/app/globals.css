@@ -62,9 +62,5 @@
   transform-origin: 0%;
 }
 
-.swiper-paginations {
-  background-color: yellow;
-  position: z-index 1000;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
+

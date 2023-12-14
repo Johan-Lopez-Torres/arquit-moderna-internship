@@ -1,154 +1,65 @@
 [
-    {
-      "key": 1,
-      "name": "Servicio de Diseño de Interiores",
-      "description": "Transformamos espacios para reflejar su estilo y personalidad.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": 2,
-      "name": "Servicio de Planificación Urbana",
-      "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    }
-    ,
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    },
-    {
-      "key": "servicio3",
-      "name": "Servicio de Restauración de Edificios Históricos",
-      "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-      "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg"
-    }
-  ]
-  
+  {
+    "key": 1,
+    "name": "Servicio de Diseño de Interiores",
+    "description": "Transformamos espacios para reflejar su estilo y personalidad.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": 2,
+    "name": "Servicio de Planificación Urbana",
+    "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "endpoint": "/servicios/diseño-interiores"
+  }
+]

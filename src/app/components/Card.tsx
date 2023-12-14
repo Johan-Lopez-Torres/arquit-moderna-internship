@@ -1,12 +1,17 @@
 import DataEmployee from "@data/employees.json";
 import DataCustomers from "@data/testimonios.json";
+import DataService from "@data/services.json";
 
 //data de los clientes
 const dataCustomer = DataCustomers.map((customers, index) => (
   <div className="card flex-row flex-wrap bg-base-100 shadow-xl w-40 ">
     <figure className=" ">
-      <img src={customers.image} alt="Movie" key={index}     className="w-full h-full"
- />
+      <img
+        src={customers.image}
+        alt="Movie"
+        key={index}
+        className="w-full h-full"
+      />
     </figure>
     <div className="card-body ">
       <h2 className="card-title">{customers.name} </h2>
@@ -59,16 +64,29 @@ const dataEmployee = DataEmployee.map((employee, index) => (
   </div>
 ));
 
+const dataService = DataService.map((employee, index) => (
+  <div className="card  bg-base-100 shadow-xl w-52 ">
+    <figure className=" ">
+      <img
+        src={employee.image}
+        alt="Movie"
+        key={index}
+        className="w-full h-full"
+      />
+    </figure>
+    <div className="card-body ">
+      <h2 className="card-title">{employee.name} </h2>
+      <p>{employee.description} </p>
+    </div>
+  </div>
+));
+
 export const CardEmployee = () => {
   return <>{dataEmployee}</>;
 };
 
 export const CardService = () => {
-  return (
-    <>
-      
-    </>
-  );
+  return <>{dataService}</>;
 };
 
 export const CardTestimonial = () => {

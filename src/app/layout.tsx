@@ -20,9 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className}  bg-slate-800  `}>
         <Navbar />
-
         <main className="mx-10"></main>
-
         {children}
         <Footer />
       </body>

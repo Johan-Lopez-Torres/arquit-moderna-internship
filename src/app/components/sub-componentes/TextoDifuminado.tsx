@@ -1,7 +1,7 @@
 
 const TextoDifuminado: React.FC = () => {
   return (
-    <div className="  h-screen flex items-center justify-center ">
+    <div className="  h-screen flex items-center justify-center mx-10">
       <div className="relative ">
         <div className="h-auto  absolute inset-0 bg-gradient-to-r from-pink-500  to-cyan-500   blur-3xl opacity-30 	">    
         </div>

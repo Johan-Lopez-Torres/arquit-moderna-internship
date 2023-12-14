@@ -1,6 +1,12 @@
 "use client";
 
-import { Virtual, Navigation, Pagination } from "swiper/modules";
+import {
+  Virtual,
+  Navigation,
+  Pagination,
+  Autoplay,
+  Keyboard,
+} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -36,30 +42,39 @@ const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
 
   return (
     <>
-      <div className=" flex flex-col gap-12 justify-center items-center min-h-screen m-14 ">
+      <div className=" flex flex-col  justify-center items-center min-h-screen m-14  ">
         <Swiper
-          modules={[Virtual, Navigation, Pagination]}
+          navigation={{
+            nextEl: ".swiper-button-next-custom",
+            prevEl: ".swiper-button-prev-custom",
+          }}
+          modules={[Virtual, Navigation, Pagination, Autoplay, Keyboard]}
+          pagination={{
+            type: "bullets",
+            clickable: true,
+            el: ".swiper-paginacion",
+          }}
           slidesPerView={4}
           centeredSlides={false}
           spaceBetween={30}
-          pagination={{
-            clickable: true,
-            el: ".swiper-paginations",
-            renderBullet: function (index, className) {
-              return (
-                '<span class="' + className + '">' + (index + 1) + "</span>"
-              );
-            },
+          loop={true}
+          keyboard={{
+            enabled: true,
           }}
-          navigation={true}
+          autoplay={{
+            delay: 50,
+            pauseOnMouseEnter: true,
+          }}
+          speed={1200}
           style={{ height: "100%" }}
           virtual
         >
           {slides}
-          
-          <div className="swiper-paginations mt-16">dfdf</div>
+ 
+          <div className="swiper-paginacion flex justify-center "></div>
 
         </Swiper>
+
       </div>
     </>
   );
