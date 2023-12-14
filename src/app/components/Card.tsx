@@ -4,7 +4,7 @@ import DataCustomers from "@data/testimonios.json";
 //data de los clientes
 const dataCustomer = DataCustomers.map((customers, index) => (
   <div className="card flex-row flex-wrap bg-base-100 shadow-xl w-40 ">
-    <figure className="w-3/4  ">
+    <figure className=" ">
       <img src={customers.image} alt="Movie" key={index}     className="w-full h-full"
  />
     </figure>
