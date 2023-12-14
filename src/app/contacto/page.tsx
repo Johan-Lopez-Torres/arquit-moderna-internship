@@ -1,10 +1,13 @@
 import React from 'react'
+import DemoSlider from '../components/CarouselGrande'
+import DataSlide from "@data/carouselGrande.json"
+
 
 const page = () => {
   return (
-    <div className='mx-10'>
-      
-    </div>
+    <>
+    <DemoSlider data={DataSlide } />
+    </>
   )
 }
 
