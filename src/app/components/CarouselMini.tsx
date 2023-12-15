@@ -62,19 +62,18 @@ const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
             enabled: true,
           }}
           autoplay={{
-            delay: 50,
-            pauseOnMouseEnter: true,
+            delay: 5,
+            /*             pauseOnMouseEnter: true,
+             */
           }}
-          speed={1200}
+          speed={2000}
           style={{ height: "100%" }}
           virtual
         >
           {slides}
- 
+
           <div className="swiper-paginacion flex justify-center "></div>
-
         </Swiper>
-
       </div>
     </>
   );

@@ -25,11 +25,11 @@
   object-fit: cover;
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 300px;
   margin: 20px auto;
-}
+} */
 .append-buttons {
   text-align: center;
   margin-top: 20px;
@@ -61,6 +61,3 @@
   background: #9032bb;
   transform-origin: 0%;
 }
-
-
-

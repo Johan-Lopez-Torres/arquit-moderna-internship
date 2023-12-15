@@ -1,6 +1,7 @@
 import DataEmployee from "@data/employees.json";
 import DataCustomers from "@data/testimonios.json";
 import DataService from "@data/services.json";
+import Link from "next/link";
 
 //data de los clientes
 const dataCustomer = DataCustomers.map((customers, index) => (
@@ -64,21 +65,23 @@ const dataEmployee = DataEmployee.map((employee, index) => (
   </div>
 ));
 
-const dataService = DataService.map((employee, index) => (
-  <div className="card  bg-base-100 shadow-xl w-52 ">
-    <figure className=" ">
-      <img
-        src={employee.image}
-        alt="Movie"
-        key={index}
-        className="w-full h-full"
-      />
-    </figure>
-    <div className="card-body ">
-      <h2 className="card-title">{employee.name} </h2>
-      <p>{employee.description} </p>
+const dataService = DataService.map((service, index) => (
+  <Link href={service.endpoint} >
+    <div className="card  bg-base-100 shadow-xl w-52 ">
+      <figure className=" ">
+        <img
+          src={service.image}
+          alt="Movie"
+          key={index}
+          className="w-full h-full"
+        />
+      </figure>
+      <div className="card-body ">
+        <h2 className="card-title">{service.name} </h2>
+        <p>{service.description} </p>
+      </div>
     </div>
-  </div>
+  </Link>
 ));
 
 export const CardEmployee = () => {
