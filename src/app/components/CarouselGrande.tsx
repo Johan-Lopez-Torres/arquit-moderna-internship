@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import style from "./styles-component/CarouselGrande.module.css";
 
 // Our custom button component
 import SliderButtons from "./sub-componentes/SliderButtons";
@@ -37,19 +38,21 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
       <div className=" h-screen">
         <ul className="h-full w-full">
           <Swiper
+          className={`${style.swiper}`}
             navigation
             pagination={{ type: "bullets", clickable: true }}
             autoplay={{
               reverseDirection: true,
-
-              delay: 500,
+              delay: 700,
             }}
-            speed={2500}
+            speed={2000 }
             loop={true}
             modules={[Autoplay, Navigation, Pagination, Keyboard]}
             keyboard={{
               enabled: true,
             }}
+            
+            
           >
             {data.map(({ id, image, tagline, title, buttons }) => (
               <SwiperSlide key={id}>

@@ -10,6 +10,7 @@ import dataSlider from "@data/carouselGrande.json";
 
 //Librerias
 import { motion, useScroll, useSpring } from "framer-motion";
+import CarouselTest from "./components/CarouselTest";
 
 const Page = async () => {
   const { scrollYProgress } = useScroll();
@@ -26,6 +27,7 @@ const Page = async () => {
       <DemoSlider data={dataSlider} />
       <SliderPrincipal />
       <TextoDifuminado />
+      <CarouselTest />
     </>
   );
 };

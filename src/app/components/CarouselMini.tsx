@@ -12,13 +12,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import servicesData from "@data/services.json";
+import style from "./styles-component/CarouselMini.module.css";
 
 interface SliderPrincipalProps {}
 
 const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
   const slides = servicesData.map((service, index) => (
     <SwiperSlide
-      className="rounded-3xl "
+      className="rounded-3xl  h-full"
       key={service.key}
       virtualIndex={index}
     >
@@ -42,17 +43,16 @@ const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
 
   return (
     <>
-      <div className=" flex flex-col  justify-center items-center min-h-screen m-14  ">
+      <div className=" flex   justify-center items-center min-h-screen mx-14 my-0 ">
         <Swiper
-          navigation={{
-            nextEl: ".swiper-button-next-custom",
-            prevEl: ".swiper-button-prev-custom",
-          }}
+          className={` ${style.swiper} h-fit-content w-full`}
+          navigation= {true}
           modules={[Virtual, Navigation, Pagination, Autoplay, Keyboard]}
           pagination={{
             type: "bullets",
             clickable: true,
-            el: ".swiper-paginacion",
+            el: ".swiper-pagination",
+
           }}
           slidesPerView={4}
           centeredSlides={false}
@@ -63,17 +63,15 @@ const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
           }}
           autoplay={{
             delay: 5,
-            /*             pauseOnMouseEnter: true,
-             */
           }}
           speed={2000}
-          style={{ height: "100%" }}
           virtual
         >
-          {slides}
+          {slides}          
+          <div className="swiper-pagination"> </div>
 
-          <div className="swiper-paginacion flex justify-center "></div>
         </Swiper>
+
       </div>
     </>
   );
