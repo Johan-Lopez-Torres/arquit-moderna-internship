@@ -3,28 +3,28 @@
     "key": 1,
     "name": "Servicio de Diseño de Interiores",
     "description": "Transformamos espacios para reflejar su estilo y personalidad.",
-    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
-    "endpoint": "/servicios/diseño-interiores"
+    "image": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+    "endpoint": "/servicios/diseno-interiores"
   },
   {
     "key": 2,
     "name": "Servicio de Planificación Urbana",
     "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
-    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "image": "https://ciudadjaragua.com/wp-content/uploads/2021/07/oriental_1.jpg",
+    "endpoint": "/servicios/diseño-exteriores"
+  },
+  {
+    "key": "servicio3",
+    "name": "Servicio de Restauración de Edificios Históricos",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "https://i.pinimg.com/564x/a1/b6/41/a1b64176c1af47d2d40f5bf567c134cf.jpg",
     "endpoint": "/servicios/diseño-interiores"
   },
   {
     "key": "servicio3",
     "name": "Servicio de Restauración de Edificios Históricos",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
-    "endpoint": "/servicios/diseño-interiores"
-  },
-  {
-    "key": "servicio3",
-    "name": "Servicio de Restauración de Edificios Históricos",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://www.mundiario.com/asset/thumbnail,1280,720,center,center/media/mundiario/images/2023/01/31/2023013123553566926.jpg",
+    "image": "https://images.homify.com/image/upload/c_scale,h_500,w_500/v1467254760/p/photo/image/1565334/12.1.jpg",
     "endpoint": "/servicios/diseño-interiores"
   },
   {

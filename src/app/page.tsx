@@ -28,7 +28,7 @@ const Page = async () => {
       <SliderPrincipal />
       <TextoDifuminado />
       <CarouselTest />
-      mot
+      
     </>
   );
 };

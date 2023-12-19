@@ -23,7 +23,7 @@ const dataCustomer = DataCustomers.map((customers, index) => (
 
 //data de los trabajadores
 const dataEmployee = DataEmployee.map((employee, index) => (
-  <div className=" card w-96 bg-base-100  mt-10 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ">
+  <div className=" card w-64 bg-base-100  mt-10 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ">
     <div className="avatar justify-center mt-5 ">
       <div className="w-52 rounded-full  ring-violet-500 ring-8 	 ring-offset-base-100 ring-offset-4">
         <img src={employee.image} key={index} />
@@ -66,8 +66,8 @@ const dataEmployee = DataEmployee.map((employee, index) => (
 ));
 
 const dataService = DataService.map((service, index) => (
-  <Link href={service.endpoint} >
-    <div className="card  bg-base-100 shadow-xl w-52 ">
+  <Link href={`${service.endpoint}   `}>
+    <div className="card  bg-base-100 shadow-xl w-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-zinc-200 duration-200      border-rose-700 hover:border-4 ">
       <figure className=" ">
         <img
           src={service.image}
@@ -76,9 +76,12 @@ const dataService = DataService.map((service, index) => (
           className="w-full h-full"
         />
       </figure>
-      <div className="card-body ">
-        <h2 className="card-title">{service.name} </h2>
-        <p>{service.description} </p>
+      <div className="card-body p-5 ">
+        <h2 className="card-title text-lg leading-6 text-center ">
+          {service.name}{" "}
+        </h2>
+        <p className="leading-6 text-sm">{service.description} </p>
+        <div className="badge badge-accent">ghost</div>
       </div>
     </div>
   </Link>
