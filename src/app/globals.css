@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .swiper-slide {
   text-align: center;
@@ -21,14 +29,11 @@
   height: 100%;
   object-fit: cover;
 }
- .swiper {
+.swiper {
   width: 100%;
   height: 300px;
   margin: 20px auto;
-} 
-
-
-
+}
 
 .swiper .swiper-pagination-bullet-active {
   transform: scale(2);
@@ -45,6 +50,7 @@
   transform-origin: 0%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   color: #9032bb;
 }

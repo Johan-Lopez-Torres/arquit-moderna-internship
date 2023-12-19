@@ -2,54 +2,85 @@ import React from "react";
 import styles from "./styles-component/Navbar.module.css";
 import Link from "next/link";
 
+const servicios: string = "servicios";
+const planos: string = "servicios/planos";
+
 const Navbar = () => {
   return (
     <>
-      <div className=" navbar bg-base-100">
+      <div className=" navbar bg-base-100 px-10 ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl ">daisyUI</a>
+          <a
+            href="/"
+            className="btn btn-ghost text-2xl text-rose-600 font-extrabold"
+          >
+            ARQUIT MODERNA
+          </a>
         </div>
         <div className="flex-none">
           <ul className={` ${styles.menu}  menu menu-horizontal rounded-none `}>
             <li className=" ">
-              <a href="/"  >PROGRAMACION</a>
-              <ul className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex`}>
+              <a href="/">PROGRAMACION</a>
+              <ul
+                className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
+              >
                 <li className=" ">
-                  <a href="" className="w-full">
+                  <a href="#" className="w-full">
                     PLANOS
                   </a>
                   <ul
-                    className={` ${styles.submenu2}  bg-slate-700   ml-0 p-0 `}
+                    className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                   >
                     <li>
-                      <a href="">REACT</a>
+                      <a href="#">DISTRIBUCIÓN</a>
                     </li>
                     <li>
-                      <a href="">vue</a>
+                      <a href="">CORTES Y ELEVACIONES</a>
                     </li>
                     <li>
-                      <a href="">ANGULAR</a>
+                      <a href="">INSTALACIÓN SANITARIA (AGUA)</a>
+                    </li>
+                    <li>
+                      <a href="">INSTALACIÓN SANITARIA (DESAGUE)</a>
+                    </li>
+                    <li>
+                      <a href="">INSTALACIÓN ELÉCTRICA</a>
+                    </li>
+                    <li>
+                      <a href="">ESTRUCTURA - CIMENTACIÓN</a>
+                    </li>
+                    <li>
+                      <a href="">ESTRUCTURA - ALIGERADO</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="">BACKEND</a>
-                  <ul className={` ${styles.submenu2}  bg-slate-700  ml-0 p-0`}>
-                    <li>
-                      <a href="">JAVA</a>
-                    </li>
-                    <li>
-                      <a href="">PHP</a>
-                    </li>
-                    <li>
-                      <a href="">NODE</a>
-                    </li>
-                  </ul>
+                  <a href={` /${servicios}/fachada`}>FACHADA 3D</a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/diseno`}>
+                    DISEÑO EXTERIOR E INTERIOR
+                  </a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/construccion`}>
+                    CONSTRUCCIÓN DE OBRA
+                  </a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/remodelacion`}>
+                    REMODELACIÓN DE OBRA
+                  </a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/construccion`}>
+                    CONSTRUCCIÓN DE OBRA
+                  </a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/ampliacion`}>AMPLIACIÓN DE OBRA</a>
                 </li>
               </ul>
-            </li>
-            <li>
-              <a href="/">About</a>
             </li>
 
             <li>

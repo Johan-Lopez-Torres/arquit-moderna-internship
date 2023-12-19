@@ -57,7 +57,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
             {data.map(({ id, image, tagline, title, buttons }) => (
               <SwiperSlide key={id}>
                 <div
-                  className="h-full w-full absolute left-0 top-0"
+                  className="h-full w-full absolute left-0 top-0 "
                   style={{
                     background: `url(${image}) center center / cover scroll no-repeat`,
                   }}

@@ -53,4 +53,10 @@
 
 }
 
+.submenu2 > li > a{
+    font-size: 0.75rem;
+    border-radius: 0;
+    padding: 10px 1.5rem;
+    transform: background-color  0.9s  ;
+}
 
