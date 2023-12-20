@@ -33,7 +33,7 @@ const dataEmployee = DataEmployee.map((employee, index) => (
       <h2 className="card-title text-teal-400 font-extrabold  mt-4">
         {employee.name}
       </h2>
-      <p className="text-left pl-4 w-5/6 ">{employee.description}</p>
+      <p className="text-left pl-4 w-5/6  text-sm">{employee.description}</p>
       <a href="https://facebook.com" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const dataEmployee = DataEmployee.map((employee, index) => (
 
 const dataService = DataService.map((service, index) => (
   <Link href={`${service.endpoint}   `}>
-    <div className="card  bg-base-100 shadow-xl w-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-zinc-200 duration-200      border-rose-700 hover:border-4 ">
+    <div className="card  bg-base-100 shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 ">
       <figure className=" ">
         <img
           src={service.image}
@@ -81,7 +81,10 @@ const dataService = DataService.map((service, index) => (
           {service.name}{" "}
         </h2>
         <p className="leading-6 text-sm">{service.description} </p>
-        <div className="badge badge-accent">ghost</div>
+        <div className="flex flex-row justify-evenly">
+          <div className="badge badge-accent">ghost</div>
+          <div className="badge badge-secondary">ghost</div>
+        </div>
       </div>
     </div>
   </Link>

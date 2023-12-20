@@ -1,0 +1,8 @@
+- boton para subir hasta el top
+- bento grid que ya hice
+- transisitones con framer notion
+- api de google maps
+- esconder el navbar cada vez que baje
+- suavizar los botones
+- definir componente para svgs
+- agregar tema negro

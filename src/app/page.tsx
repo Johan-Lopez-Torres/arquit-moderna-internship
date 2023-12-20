@@ -11,6 +11,7 @@ import dataSlider from "@data/carouselGrande.json";
 //Librerias
 import { motion, useScroll, useSpring } from "framer-motion";
 import CarouselTest from "./components/CarouselTest";
+import BentoGrid from "./ScrollGrid/page";
 
 const Page = async () => {
   const { scrollYProgress } = useScroll();
@@ -23,12 +24,12 @@ const Page = async () => {
   return (
     <>
       <motion.div className="progress-bar z-50" style={{ scaleX }} />
-      <DemoSlider data={dataSlider} />
       <Hero />
+      <DemoSlider data={dataSlider} />
+      <BentoGrid />
       <SliderPrincipal />
       <TextoDifuminado />
       <CarouselTest />
-      
     </>
   );
 };
