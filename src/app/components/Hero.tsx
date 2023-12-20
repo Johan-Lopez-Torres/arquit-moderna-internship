@@ -10,7 +10,7 @@ const Hero = () => {
             "url(https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2016-01/100x100_prefab_01.jpg?VersionId=VgFgdH9RaNMSpVeURWjI_99.EVkLUDre&itok=F2QL2XJZ)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60  "></div>
+        <div className="hero-overlay backdrop-blur-[2px] bg-black/50   "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-5xl">
             <h1 className="mb-5 text-5xl font-extrabold ">

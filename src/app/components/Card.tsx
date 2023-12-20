@@ -2,24 +2,28 @@ import DataEmployee from "@data/employees.json";
 import DataCustomers from "@data/testimonios.json";
 import DataService from "@data/services.json";
 import Link from "next/link";
+import Image from "next/image";
 
 //data de los clientes
 const dataCustomer = DataCustomers.map((customers, index) => (
-  <div className="card flex-row flex-wrap bg-base-100 shadow-xl w-40 ">
-    <figure className=" ">
+  <div className="card card-side bg-base-100 shadow-xl h-auto">
+    <figure>
       <img
-        src={customers.image}
+        className="w-full h-40 object-cover"
+        src="https://media1.popsugar-assets.com/files/thumbor/Glb-mJzXT2Dvgh-tXtA1PTPLitI/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2018/07/16/716/n/1922398/e372b6625b4cc3d45d6485.32517235_/i/Leonardo-DiCaprio.jpg"
         alt="Movie"
-        key={index}
-        className="w-full h-full"
       />
     </figure>
-    <div className="card-body ">
-      <h2 className="card-title">{customers.name} </h2>
-      <p>{customers.description} </p>
+    <div className="card-body">
+      <h2 className="card-title">New movie is released!</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <div className="card-actions justify-end">
+        <button className="btn btn-primary">Watch</button>
+      </div>
     </div>
   </div>
 ));
+
 
 //data de los trabajadores
 const dataEmployee = DataEmployee.map((employee, index) => (

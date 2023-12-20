@@ -49,7 +49,7 @@ const config: Config = {
 
         error: "#f35867",
       },
-    },
+    }, 
   ],
 
   plugins: [daisyui],

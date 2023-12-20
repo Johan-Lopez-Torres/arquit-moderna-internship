@@ -23,6 +23,7 @@ const Page = async () => {
 
   return (
     <>
+    
       <motion.div className="progress-bar z-50" style={{ scaleX }} />
       <Hero />
       <DemoSlider data={dataSlider} />
