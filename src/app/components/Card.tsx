@@ -2,28 +2,21 @@ import DataEmployee from "@data/employees.json";
 import DataCustomers from "@data/testimonios.json";
 import DataService from "@data/services.json";
 import Link from "next/link";
-import Image from "next/image";
 
 //data de los clientes
 const dataCustomer = DataCustomers.map((customers, index) => (
-  <div className="card card-side bg-base-100 shadow-xl h-auto">
-    <figure>
-      <img
-        className="w-full h-40 object-cover"
-        src="https://media1.popsugar-assets.com/files/thumbor/Glb-mJzXT2Dvgh-tXtA1PTPLitI/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2018/07/16/716/n/1922398/e372b6625b4cc3d45d6485.32517235_/i/Leonardo-DiCaprio.jpg"
-        alt="Movie"
-      />
-    </figure>
-    <div className="card-body">
-      <h2 className="card-title">New movie is released!</h2>
-      <p>Click the button to watch on Jetflix app.</p>
-      <div className="card-actions justify-end">
-        <button className="btn btn-primary">Watch</button>
+  <div className="card w-96 bg-base-100 shadow-xl ">
+    <div className="avatar flex justify-center mt-7 h-36">
+      <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <img src={customers.image} key={index} />
       </div>
+    </div>
+    <div className="card-body items-center text-center">
+      <h2 className="card-title">{customers.name} </h2>
+      <p>{customers.description} </p>
     </div>
   </div>
 ));
-
 
 //data de los trabajadores
 const dataEmployee = DataEmployee.map((employee, index) => (

@@ -28,7 +28,7 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              className={` ${styles.menu}  menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
+              className={` ${styles.menu}   menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
             >
               <li className=" ">
                 <a href={` /${servicios}`}>SERVICIOS</a>
@@ -36,9 +36,7 @@ const Navbar = () => {
                   className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
                 >
                   <li className=" ">
-                    <a href={` /${planos}`} className="w-full">
-                      PLANOS
-                    </a>
+                    <a href={` /${planos}`}>PLANOS</a>
                     <ul
                       className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                     >
@@ -117,17 +115,18 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul
-            className={` ${styles.menu}  menu menu-vertical rounded-none sm:menu-horizontal font-bold`}
+            className={` ${styles.menu}  menu menu-vertical rounded-none sm:menu-horizontal font-bold `}
           >
+            <li>
+              <Link href={"/"}>INICIO</Link>
+            </li>
             <li className=" ">
-              <a href="/">PROGRAMACION</a>
+              <Link href={"/servicios"}>SERVICIOS</Link>{" "}
               <ul
-                className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
+                className={` ${styles.submenu}  bg-slate-700 justify-center p-0 flex z-50`}
               >
                 <li className=" ">
-                  <a href="#" className="w-full">
-                    PLANOS
-                  </a>
+                  <a href={` /${planos}`}>PLANOS</a>
                   <ul
                     className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                   >
@@ -182,18 +181,14 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-
-            <li>
-              <Link href={"/"}>INICIO</Link>
-            </li>
-            <li>
-              <Link href={"/servicios"}>SERVICIOS</Link>
-            </li>
             <li>
               <Link href={"/nosotros"}>NOSOTROS</Link>
             </li>
             <li>
               <Link href={"/testimonios"}>TESTIMONIOS</Link>
+            </li>
+            <li>
+              <Link href={"/contacto"}>CONTACTO</Link>
             </li>
           </ul>
         </div>
