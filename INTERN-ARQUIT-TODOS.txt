@@ -9,3 +9,6 @@
 - cambiar fuentes de toda la app
 terminar los endpoints
 -terminar el contenido
+lazy loading effect
+flip effect cards
+- margin a todo
