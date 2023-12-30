@@ -7,8 +7,7 @@ import SliderPrincipal from '../components/CarouselMini'
 const page = () => {
   return (
     <>
-    <SliderPrincipal/>
-    
+
     </>
   )
 }
