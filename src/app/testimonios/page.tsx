@@ -1,5 +1,5 @@
 import React from "react";
-import { CardTestimonial } from "../components/Card";
+import { CardCustomer } from "../components/Card";
 
 const page = () => {
   return (
@@ -15,7 +15,7 @@ const page = () => {
             </div>
         <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3   justify-items-center gap-12 ">
         
-          <CardTestimonial />
+          <CardCustomer />
         </div>
       </div>
     </>

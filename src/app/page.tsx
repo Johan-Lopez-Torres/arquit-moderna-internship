@@ -12,6 +12,7 @@ import dataSlider from "@data/carouselGrande.json";
 import { motion, useScroll, useSpring } from "framer-motion";
 import CarouselTest from "./components/CarouselTest";
 import BentoGrid from "./ScrollGrid/page";
+import ServiciosLanding from "./components/ServiciosLanding";
 
 const Page = async () => {
   const { scrollYProgress } = useScroll();
@@ -29,8 +30,7 @@ const Page = async () => {
       <DemoSlider data={dataSlider} />
       <BentoGrid />
       <SliderPrincipal />
-      <TextoDifuminado />
-      <CarouselTest />
+      <ServiciosLanding />
     </>
   );
 };
