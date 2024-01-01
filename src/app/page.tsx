@@ -13,6 +13,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import CarouselTest from "./components/CarouselTest";
 import BentoGrid from "./ScrollGrid/page";
 import ServiciosLanding from "./components/ServiciosLanding";
+import MisionVision from "./components/MisionVision";
 
 const Page = async () => {
   const { scrollYProgress } = useScroll();
@@ -29,7 +30,7 @@ const Page = async () => {
       <Hero />
       <DemoSlider data={dataSlider} />
       <BentoGrid />
-      <SliderPrincipal />
+      <MisionVision />
       <ServiciosLanding />
     </>
   );

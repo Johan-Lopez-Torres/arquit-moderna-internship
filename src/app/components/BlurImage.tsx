@@ -9,7 +9,7 @@ type BlurImageProps = {
   imgClass?: string;
   alt?: string;
 };
-/*  */
+
 const BlurImage: React.FC<BlurImageProps> = ({
   src,
   hash,

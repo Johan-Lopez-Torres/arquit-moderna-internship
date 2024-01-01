@@ -30,7 +30,6 @@ const BentoGrid = () => {
   });
   const y = useTransform(scrollYProgress, [0, 1], [0, 400]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, -400]);
-  
 
   useEffect(() => {
     () => {
@@ -47,13 +46,13 @@ const BentoGrid = () => {
 
   return (
     <>
-      <main className={`${styles.main} mx-12 `}>
+      <main className={`${styles.main}  `}>
         <div className={styles.spacer}> </div>
-        <div ref={container} className={`rounded-xl ${styles.gallery}`}>
+        <div ref={container} className={`rounded-xl ${styles.gallery} `}>
           <Column images={[images[0], images[1], images[2]]} y={y} />
           <Column images={[images[3], images[4], images[5]]} y={y2} />
           <Column images={[images[6], images[7], images[8]]} y={y} />
-          <Column images={[images[9], images[10], images[11]]} y={y2}/>
+          <Column images={[images[9], images[10], images[11]]} y={y2} />
         </div>
         <div className={styles.spacer}> </div>
       </main>
