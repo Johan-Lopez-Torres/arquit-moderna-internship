@@ -4,6 +4,7 @@ import "./globals.css";
 //Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import NavbarSecundario from "./components/NavbarSecundario";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -36,6 +37,7 @@ export default function RootLayout({
         className={` ${noto_sans_jp.variable}     ${inter.className}  ${caveat.variable}  bg-slate-800 max-w-[1500px] `}
       >
         <Navbar />
+        <NavbarSecundario />
 
         {children}
         <Footer />
