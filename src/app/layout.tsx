@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${noto_sans_jp.variable}     ${inter.className}  ${caveat.variable}  bg-slate-800 max-w-[1500px] `}
+        className={` ${noto_sans_jp.variable}     ${inter.className}  ${caveat.variable}  bg-Neutral-950 max-w-[1500px] `}
       >
         <Navbar />
         <NavbarSecundario />
