@@ -14,6 +14,7 @@ import CarouselTest from "./components/CarouselTest";
 import BentoGrid from "./ScrollGrid/page";
 import ServiciosLanding from "./components/ServiciosLanding";
 import MisionVision from "./components/MisionVision";
+import PageWrapper from "./components/PageWrapper";
 
 const Page = async () => {
   const { scrollYProgress } = useScroll();
@@ -25,13 +26,16 @@ const Page = async () => {
 
   return (
     <>
-    
       <motion.div className="progress-bar z-50" style={{ scaleX }} />
+      <PageWrapper >
+
       <Hero />
       <DemoSlider data={dataSlider} />
       <BentoGrid />
       <MisionVision />
       <ServiciosLanding />
+      </PageWrapper>
+
     </>
   );
 };

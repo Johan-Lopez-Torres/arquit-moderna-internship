@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="sm:min-h-screen md:h-screen   flex-row flex px-20 py-11 sm:flex-col md:flex-row lg:flex-row  items-center ">
+      <div className="sm:min-h-screen md:h-screen   flex-row flex px-20 py-5 my-8 sm:flex-col md:flex-row lg:flex-row  items-center ">
         <div className="w-1/2  h-full ">
           <div className=" flex flex-col justify-center  overflow-hidden h-full w-full    ">
             <div className="h-full w-full p-6  bg-neutral rounded-md rounded-r-none shadow-md ">
