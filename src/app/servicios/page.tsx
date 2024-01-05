@@ -7,16 +7,11 @@ const Page = () => {
   return (
     <>
       <PageWrapper>
-        <div className="m-12">
-          <div className="flex flex-row justify-center">
-            <a
-              href="#"
-              className="btn btn-success w-11/12 text-slate-100 font-extrabold text-xl"
-            >
-              PLANOS
-            </a>
+        <div className="m-12 ">
+          <div className="divider  divider-accent mb-14 ">
+            <h1 className="text-2xl font-semibold">PLANOS</h1>
           </div>
-          <div className="grid xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-evenly justify-items-center my-10 gap-8 mx-10">
+          <div className="grid xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-items-center  gap-8 ">
             <CardService />
           </div>
         </div>

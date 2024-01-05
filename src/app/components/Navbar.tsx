@@ -4,6 +4,15 @@ import Link from "next/link";
 
 const servicios: string = "servicios";
 const planos: string = "servicios/planos";
+const tipoPlanos: string[] = [
+  "DISTRIBUCIÓN",
+  "CORTES Y ELEVACIONES",
+  "INSTALACIÓN SANITARIA (AGUA)",
+  "INSTALACIÓN SANITARIA (DESAGUE)",
+  "INSTALACIÓN ELÉCTRICA",
+  "ESTRUCTURA - CIMENTACIÓN",
+  "ESTRUCTURA - ALIGERADO",
+];
 
 const Navbar = () => {
   return (
@@ -186,6 +195,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link href={"/testimonios"}>TESTIMONIOS</Link>
+            </li>
+            <li>
+              <Link href={"/ubicanos"}>UBÍCANOS</Link>
             </li>
             <li>
               <Link href={"/contacto"}>CONTACTO</Link>

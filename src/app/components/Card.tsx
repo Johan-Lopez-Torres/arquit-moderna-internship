@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const CardCustomer = () => {
   const dataCustomer = DataCustomers.map((customers, index) => (
-    <div className="card w-96 bg-base-100 shadow-xl ">
+    <div className="card w-80 bg-gray-800 shadow-xl ">
       <div className="avatar flex justify-center mt-7 h-36">
         <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
           <img className="w-full" src={customers.image} key={index} />
@@ -29,19 +29,22 @@ export const CardCustomer = () => {
 export const CardEmployee = () => {
   const dataEmployee = DataEmployee.map((employee, index) => (
     <div
-      className=" card w-64 bg-base-100   shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] 
+      className=" card w-64 bg-gray-800   shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] 
      transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200 "
     >
-      <div className="avatar justify-center mt-5 bg-transparent">
+      <div className="card card-body pt-4 pb-2 bg-slate-700 rounded-lg rounded-b-none items-center">
+        <h2 className="card-title ">{employee.name } </h2>
+      </div>
+      <div className="avatar justify-center mt-5   ">
         <div className="w-44 rounded-full  ring-indigo-600 ring-[5px] 	 ring-offset-base-100 ring-offset-4">
-          <img src={employee.image} key={index} />
+          <img className="w-full h-full" src={employee.image} key={index} />
         </div>
       </div>
-      <div className="card-body items-center text-center p-2">
-        <h2 className="card-title text-teal-400 font-extrabold  mt-4">
-          {employee.name}
-        </h2>
-        <p className="text-left pl-4 w-5/6  text-sm">{employee.description}</p>
+
+      <div className="card-body items-center  text-center mx-0 px-0 pt-5 pb-3">
+        <p className="text-left  w-5/6  text-sm leading-6">
+          {employee.description}
+        </p>
         <a href="https://facebook.com" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +112,6 @@ export const CardServiceLanding = () => {
       <div className="card  bg-base-100 shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none ">
         <figure className=" ">
           <img
-          
             src={service.image}
             alt="Movie"
             key={index}
