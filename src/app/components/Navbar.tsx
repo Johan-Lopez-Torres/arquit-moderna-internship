@@ -4,15 +4,6 @@ import Link from "next/link";
 
 const servicios: string = "servicios";
 const planos: string = "servicios/planos";
-const tipoPlanos: string[] = [
-  "DISTRIBUCIÓN",
-  "CORTES Y ELEVACIONES",
-  "INSTALACIÓN SANITARIA (AGUA)",
-  "INSTALACIÓN SANITARIA (DESAGUE)",
-  "INSTALACIÓN ELÉCTRICA",
-  "ESTRUCTURA - CIMENTACIÓN",
-  "ESTRUCTURA - ALIGERADO",
-];
 
 const Navbar = () => {
   return (
@@ -117,7 +108,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost text-2xl text-rose-600 font-extrabold pr-1 "
+            className="btn btn-ghost text-3xl text-rose-700 font-extrabold pr-1 "
           >
             ARQUIT MODERNA
           </a>

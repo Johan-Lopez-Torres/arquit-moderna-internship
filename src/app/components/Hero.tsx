@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="hero-content text-center text-neutral-content opacity-100 ">
           <div className="max-w-5xl 	backdrop-blur-sm  		">
             <p className="mb-5 text-5xl font-extrabold  leading-tight ">
-              <span className="text-4xl text-rose-500 font-bold  ">
+              <span className="text-4xl text-rose-700 font-bold  ">
                 SOMOS UN EQUIPO{" "}
               </span>
               <br />{" "}
