@@ -32,7 +32,7 @@ export const CardEmployee = () => {
       className=" card w-64 bg-gray-800   shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] 
      transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200 "
     >
-      <div className="card card-body pt-4 pb-2 bg-slate-700 rounded-lg rounded-b-none items-center">
+      <div className="card card-body pt-4 pb-2 bg-slate-800 rounded-lg rounded-b-none items-center">
         <h2 className="card-title ">{employee.name } </h2>
       </div>
       <div className="avatar justify-center mt-5   ">

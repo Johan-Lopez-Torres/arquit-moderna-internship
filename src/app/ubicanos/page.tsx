@@ -20,7 +20,7 @@ export default function Home() {
 
 export function Map() {
   const center = useMemo(
-    () => ({ lat: -9.128256099056829,  lng: -78.52171561329502 }),
+    () => ({ lat: -9.128256099056829, lng: -78.52171561329502 }),
     []
   );
 
@@ -46,7 +46,10 @@ export function Map() {
             >
               <Marker position={center} onClick={handleMarkerClick} />
               {infoWindowOpen && ( // Renderiza el InfoWindow solo si infoWindowOpen es true
-                <InfoWindow  position={center} onCloseClick={handleInfoWindowClose}>
+                <InfoWindow
+                  position={center}
+                  onCloseClick={handleInfoWindowClose}
+                >
                   <div className="flex flex-row justify-center max-w-xs  ">
                     <div className="mb-2">
                       <img
@@ -60,7 +63,8 @@ export function Map() {
                         OFICINAS DE ARQUIT MODERNA
                       </h1>
                       <p className="text-slate-500 font-bold">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
                       </p>
                     </div>
                   </div>
@@ -69,13 +73,40 @@ export function Map() {
               <div className="h-screen"></div>
             </GoogleMap>
           </div>
-          <div className="w-1/2 p-10">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
-              vel, harum quasi quibusdam debitis reiciendis voluptate,
-              reprehenderit possimus cumque autem a quaerat ipsum impedit
-              doloribus numquam eveniet quia voluptatum assumenda!
-            </p>
+          <div className="w-1/2  ">
+            <div className="flex flex-col justify-center  pt-6  items-center">
+              <div className="card w-96 bg-neutral text-neutral-content mb-3 ">
+                <div className="card-body items-center text-center ">
+                  <h2 className="card-title text-rose-500 font-extrabold">SIGUENOS</h2>
+                  <p className="text-white">We are using cookies for no reason.</p>
+                  
+                </div>
+              </div>
+              <div className="card w-96 bg-neutral text-neutral-content mb-3 ">
+                <div className="card-body items-center text-center">
+                  <h2 className="card-title text-rose-500 font-extrabold">DIRECCION</h2>
+                  <p className="text-white">Av. Pacifico Mz C1 Lt 3A - URB Casuarinas II Etapa - 4to Piso</p>
+                 
+                </div>
+                
+              </div>
+              <div className="card w-96 bg-neutral text-neutral-content mb-3 ">
+                <div className="card-body items-center text-center">
+                  <h2 className="card-title text-rose-500 font-extrabold">EMAIL</h2>
+                  <p className="text-white">sangers.corp@gmail.com</p>
+                 
+                </div>
+                
+              </div>
+              <div className="card w-96 bg-neutral text-neutral-content mb-3 ">
+                <div className="card-body items-center text-center font-extrabold">
+                  <h2 className="card-title text-rose-500">LLÁMANOS</h2>
+                  <p className="text-white">93423432</p>
+              
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>

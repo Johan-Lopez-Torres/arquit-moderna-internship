@@ -67,7 +67,7 @@ const Navbar = () => {
                 <Link href={"/servicios"}>CONTACTO</Link>
               </li>
               <li>
-                <Link href={"/nosotros"}>NOSOTROS</Link>
+                <Link href={"#"}>NOSOTROS</Link>
               </li>
               <li>
                 <Link href={"/testimonios"}>TESTIMONIOS</Link>
@@ -136,7 +136,29 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link href={"/nosotros"}>NOSOTROS</Link>
+              <Link href={"#"}>NOSOTROS
+              
+              </Link>
+              <ul
+                  className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
+                >
+                  <li className=" ">
+                    <ul
+                      className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
+                    >
+                      
+                    </ul>
+                  </li>
+                  <li>
+                      <Link href={"/nosotros/mision-vision"}>MISION Y VISION</Link>
+                     </li>
+                     <li>
+                      <Link href={"/nosotros/historia"}>HISTORIA</Link>
+                     </li>
+                     <li>
+                      <Link href={"/nosotros/equipo"}>EQUIPO</Link>
+                     </li>
+                </ul>
             </li>
             <li>
               <Link href={"/testimonios"}>TESTIMONIOS</Link>

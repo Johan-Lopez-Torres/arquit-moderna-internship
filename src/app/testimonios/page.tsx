@@ -7,9 +7,9 @@ const page = () => {
     <>
       <PageWrapper>
         <div className="m-12">
-          <div className="divider  divider-accent mb-14 ">
+          {/* <div className="divider  divider-accent mb-14 ">
             <h1 className="text-2xl font-semibold">TESTIMONIOS</h1>
-          </div>
+          </div> */}
           <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3   justify-items-center gap-12 ">
             <CardCustomer />
           </div>

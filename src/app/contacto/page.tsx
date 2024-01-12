@@ -54,7 +54,7 @@ const page = () => {
                   />
                 </div>
               </form>
-              <button className="btn btn-accent mt-7  btn-block">
+              <button className="btn text-white bg-rose-600 mt-7  btn-block hover:bg-violet-800">
                 SEND MESSAGE{" "}
               </button>
             </div>
