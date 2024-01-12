@@ -2,11 +2,9 @@
 
 //Componentes
 import Hero from "./components/Hero";
-import SliderPrincipal from "@components/CarouselMini";
-import TextoDifuminado from "./components/sub-componentes/TextoDifuminado";
-import DemoSlider from "./components/CarouselGrande";
+import DemoSlider from "./components/CarouselPrincipal";
+import dataSlider from "@data/carouselData.json";
 
-import dataSlider from "@data/carouselGrande.json";
 
 //Librerias
 import { motion, useScroll, useSpring } from "framer-motion";

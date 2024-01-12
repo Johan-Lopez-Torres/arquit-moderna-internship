@@ -1,0 +1,71 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "name": "PLANOS",
+      "url": "servicios/planos",
+      "submenu": [
+        {
+          "id": 1,
+          "name": "DISTRIBUCIÓN",
+          "url": "servicios/planos/distribucion"
+        },
+        {
+          "id": 2,
+          "name": "CORTES Y ELEVACIONES",
+          "url": "servicios/planos/cortes-elevaciones"
+        },
+        {
+          "id": 3,
+          "name": "INSTALACIÓN SANITARIA (AGUA)",
+          "url": "servicios/planos/instalacion-sanitaria-agua"
+        },
+        {
+          "id": 4,
+          "name": "INSTALACIÓN SANITARIA (DESAGUE)",
+          "url": "servicios/planos/instalacion-sanitaria-desague"
+        },
+        {
+          "id": 5,
+          "name": "INSTALACIÓN ELÉCTRICA",
+          "url": "servicios/planos/instalacion-electrica"
+        },
+        {
+          "id": 6,
+          "name": "ESTRUCTURA - CIMENTACIÓN",
+          "url": "servicios/planos/estructura-cimentacion"
+        },
+        {
+          "id": 7,
+          "name": "ESTRUCTURA - ALIGERADO",
+          "url": "servicios/planos/estructura-aligerado"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "FACHADA 3D",
+      "url": "servicios/fachada"
+    },
+    {
+      "id": 3,
+      "name": "DISEÑO EXTERIOR E INTERIOR",
+      "url": "servicios/diseno"
+    },
+    {
+      "id": 4,
+      "name": "CONSTRUCCIÓN DE OBRA",
+      "url": "servicios/construccion"
+    },
+    {
+      "id": 5,
+      "name": "REMODELACIÓN DE OBRA",
+      "url": "servicios/remodelacion"
+    },
+    {
+      "id": 6,
+      "name": "AMPLIACIÓN DE OBRA",
+      "url": "servicios/ampliacion"
+    }
+  ]
+}

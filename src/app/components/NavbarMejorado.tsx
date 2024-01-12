@@ -3,8 +3,8 @@ import styles from "./styles-component/Navbar.module.css";
 import Link from "next/link";
 import navbarData from "@data/navbarData.json";
 
-const servicios: string = "servicios";
-const planos: string = "servicios/planos";
+const servicios: string = "/servicios";
+const planos: string = "/servicios/planos";
 
 const Navbar = () => {
   return (
@@ -32,18 +32,18 @@ const Navbar = () => {
               className={` ${styles.menu}   menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
             >
               <li className=" ">
-                <a href={` /${servicios}`}>SERVICIOS</a>
+                <a href={` ${servicios}`}>SERVICIOS</a>
                 <ul
                   className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
                 >
                   <li className=" ">
-                    <a href={` /${planos}`}>PLANOS</a>
+                    <a href={` ${planos}`}>PLANOS</a>
                     <ul
                       className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                     >
                       {navbarData.servicios.map((servicio) => (
                         <li className="mb-1" key={servicio.id}>
-                          <Link href={`/${servicio.url}`}>
+                          <Link href={`${servicio.url}`}>
                             <h2>{servicio.name}</h2>
                           </Link>
                         </li>
@@ -81,9 +81,11 @@ const Navbar = () => {
             ARQUIT MODERNA
           </a>
         </div>
+
+        
         <div className="navbar-center hidden lg:flex">
           <ul
-            className={` ${styles.menu}  menu menu-vertical rounded-none sm:menu-horizontal font-bold `}
+            className={`menu menu-vertical rounded-none sm:menu-horizontal font-bold ${styles.menu}`}
           >
             <li>
               <Link href={"/"}>INICIO</Link>
@@ -93,46 +95,28 @@ const Navbar = () => {
               <ul
                 className={` ${styles.submenu}  bg-slate-700 justify-center p-0 flex z-50`}
               >
-                <li className=" ">
-                  <a href={` /${planos}`}>PLANOS</a>
-                  <ul
-                    className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
-                  >
-                    {navbarData.servicios.map((servicio) => (
-                      <li className="mb-1" key={servicio.id}>
-                        <Link href={`/${servicio.url}`}>
-                          <h2>{servicio.name}</h2>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-                <li>
-                  <a href={` /${servicios}/fachada`}>FACHADA 3D</a>
-                </li>
-                <li>
-                  <a href={` /${servicios}/diseno`}>
-                    DISEÑO EXTERIOR E INTERIOR
-                  </a>
-                </li>
-                <li>
-                  <a href={` /${servicios}/construccion`}>
-                    CONSTRUCCIÓN DE OBRA
-                  </a>
-                </li>
-                <li>
-                  <a href={` /${servicios}/remodelacion`}>
-                    REMODELACIÓN DE OBRA
-                  </a>
-                </li>
-                <li>
-                  <a href={` /${servicios}/construccion`}>
-                    CONSTRUCCIÓN DE OBRA
-                  </a>
-                </li>
-                <li>
-                  <a href={` /${servicios}/ampliacion`}>AMPLIACIÓN DE OBRA</a>
-                </li>
+                {navbarData.servicios.map((menuItem, index) => (
+                  <li key={index} className={menuItem.submenu ? "" : "mb-1"}>
+                    {menuItem.submenu ? (
+                      <>
+                        <a href={menuItem.url}>{menuItem.name}</a>
+                        <ul
+                          className={`${styles.submenu2} bg-slate-700 -ml-1 p-0 z-50`}
+                        >
+                          {menuItem.submenu.map((subItem) => (
+                            <li className="mb-1" key={subItem.id}>
+                              <Link href={`${subItem.url}`}>
+                                <h2>{subItem.name}</h2>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </>
+                    ) : (
+                      <a href={menuItem.url}>{menuItem.url}</a>
+                    )}
+                  </li>
+                ))}
               </ul>
             </li>
             <li>
