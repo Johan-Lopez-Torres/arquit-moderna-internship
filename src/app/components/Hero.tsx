@@ -13,17 +13,17 @@ const Hero = () => {
         <div className="hero-overlay "></div>
         <div className="hero-content text-center text-neutral-content opacity-100 ">
           <div className="max-w-5xl 	backdrop-blur-sm  		">
-            <p className="mb-5 text-5xl font-extrabold  leading-tight ">
-              <span className="text-4xl text-rose-700 font-bold  ">
+            <p className="mb-5  font-extrabold  leading-9 ">
+              <span className="text-5xl text-pink font-bold  text-white">
                 SOMOS UN EQUIPO{" "}
               </span>
               <br />{" "}
-              <span className="font-light text-slate-200 ">
+              <span className="font-light text-white text-4xl">
                 DE PROFESIONALES EN
               </span>{" "}
-              <br /> <span className="text-white ">DISEÑOS DE PROYECTOS</span>{" "}
+              <br /> <span className=" text-5xl text-rose-600  ">DISEÑOS DE PROYECTOS</span>{" "}
               <br />{" "}
-              <span className="text-slate-200 font-light">ARQUITECTÓNICOS</span>{" "}
+              <span className="text-white font-light text-5xl">ARQUITECTÓNICOS</span>{" "}
             </p>
           </div>
         </div>

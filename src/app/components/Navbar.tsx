@@ -5,6 +5,106 @@ import Link from "next/link";
 const servicios: string = "servicios";
 const planos: string = "servicios/planos";
 
+const servicio=[
+  {
+    id:1,
+    name:"FACHADA 3D",
+    url:"servicios/fachada"
+  },
+  {
+    id:2,
+    name:"DISEÑO EXTERIOR E INTERIOR",
+    url:"servicios/diseno"
+  },
+  {
+    id:3,
+    name:"CONSTRUCCIÓN DE OBRA",
+    url:"servicios/construccion"
+  },
+  {
+    id:4,
+    name:"REMODELACIÓN DE OBRA",
+    url:"servicios/remodelacion"
+  },
+  {
+    id:5,
+    name:"AMPLIACIÓN DE OBRA",
+    url:"servicios/ampliacion"
+  }
+]
+
+
+const planosServicios = [
+  {
+    id: 1,
+    name: "DISTRIBUCIÓN",
+    url: "servicios/planos/distribucion",
+  },
+  {
+    id: 2,
+    name: "CORTES Y ELEVACIONES",
+    url: "servicios/planos/cortes-elevaciones",
+  },
+  {
+    id: 3,
+    name: "INSTALACIÓN SANITARIA (AGUA)",
+    url: "servicios/planos/instalacion-sanitaria-agua",
+  },
+  {
+    id: 4,
+    name: "INSTALACIÓN SANITARIA (DESAGUE)",
+    url: "servicios/planos/instalacion-sanitaria-desague",
+  },
+  {
+    id: 5,
+    name: "INSTALACIÓN ELÉCTRICA",
+    url: "servicios/planos/instalacion-electrica",
+  },
+  {
+    id: 6,
+    name: "ESTRUCTURA - CIMENTACIÓN",
+    url: "servicios/planos/estructura-cimentacion",
+  },
+  {
+    id: 7,
+    name: "ESTRUCTURA - ALIGERADO",
+    url: "servicios/planos/estructura-aligerado",
+  },
+];
+
+const navbarData = [
+  {
+    id: 1,
+    name: "INICIO",
+    url: "/",
+  },
+  {
+    id: 2,
+    name: "SERVICIOS",
+    url: "/servicios",
+  },
+  {
+    id: 3,
+    name: "NOSOTROS",
+    url: "/nosotros",
+  },
+  {
+    id: 4,
+    name: "TESTIMONIOS",
+    url: "/testimonios",
+  },
+  {
+    id: 5,
+    name: "UBÍCANOS",
+    url: "/ubicanos",
+  },
+  {
+    id: 6,
+    name: "CONTACTO",
+    url: "/contacto",
+  },
+];
+
 const Navbar = () => {
   return (
     <>
@@ -40,55 +140,24 @@ const Navbar = () => {
                     <ul
                       className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                     >
-                      <li>
-                        <a href="#">DISTRIBUCIÓN</a>
-                      </li>
-                      <li>
-                        <a href="">CORTES Y ELEVACIONES</a>
-                      </li>
-                      <li>
-                        <a href="">INSTALACIÓN SANITARIA (AGUA)</a>
-                      </li>
-                      <li>
-                        <a href="">INSTALACIÓN SANITARIA (DESAGUE)</a>
-                      </li>
-                      <li>
-                        <a href="">INSTALACIÓN ELÉCTRICA</a>
-                      </li>
-                      <li>
-                        <a href="">ESTRUCTURA - CIMENTACIÓN</a>
-                      </li>
-                      <li>
-                        <a href="">ESTRUCTURA - ALIGERADO</a>
-                      </li>
+                      {planosServicios.map((servicio) => (
+                        <li className="mb-1" key={servicio.id}>
+                          <Link href={`/${servicio.url}`}>
+                            <h2>{servicio.name}</h2>
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
-                  <li>
-                    <a href={` /${servicios}/fachada`}>FACHADA 3D</a>
-                  </li>
-                  <li>
-                    <a href={` /${servicios}/diseno`}>
-                      DISEÑO EXTERIOR E INTERIOR
-                    </a>
-                  </li>
-                  <li>
-                    <a href={` /${servicios}/construccion`}>
-                      CONSTRUCCIÓN DE OBRA
-                    </a>
-                  </li>
-                  <li>
-                    <a href={` /${servicios}/remodelacion`}>
-                      REMODELACIÓN DE OBRA
-                    </a>
-                  </li>
-                  <li>
-                    <a href={` /${servicios}/construccion`}>
-                      CONSTRUCCIÓN DE OBRA
-                    </a>
-                  </li>
-                  <li>
-                    <a href={` /${servicios}/ampliacion`}>AMPLIACIÓN DE OBRA</a>
-                  </li>
+                  {
+                    servicio.map((servicio)=>(
+                      <li key={servicio.id}>
+                        <Link href={`/${servicio.url}`}>
+                          <h2>{servicio.name}</h2>
+                        </Link>
+                      </li>
+                    ))
+                  }
                 </ul>
               </li>
 
@@ -108,7 +177,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost text-3xl text-rose-700 font-extrabold pr-1 "
+            className="btn btn-ghost text-3xl text-rose-600 font-extrabold pr-1 "
           >
             ARQUIT MODERNA
           </a>
@@ -130,27 +199,13 @@ const Navbar = () => {
                   <ul
                     className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                   >
-                    <li>
-                      <a href="#">DISTRIBUCIÓN</a>
-                    </li>
-                    <li>
-                      <a href="">CORTES Y ELEVACIONES</a>
-                    </li>
-                    <li>
-                      <a href="">INSTALACIÓN SANITARIA (AGUA)</a>
-                    </li>
-                    <li>
-                      <a href="">INSTALACIÓN SANITARIA (DESAGUE)</a>
-                    </li>
-                    <li>
-                      <a href="">INSTALACIÓN ELÉCTRICA</a>
-                    </li>
-                    <li>
-                      <a href="">ESTRUCTURA - CIMENTACIÓN</a>
-                    </li>
-                    <li>
-                      <a href="">ESTRUCTURA - ALIGERADO</a>
-                    </li>
+                    {planosServicios.map((servicio) => (
+                      <li className="mb-1" key={servicio.id}>
+                        <Link href={`/${servicio.url}`}>
+                          <h2>{servicio.name}</h2>
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </li>
                 <li>
