@@ -1,6 +1,7 @@
 import React from "react";
 import { CardServiceLanding } from "./Card";
 import Stats from "./Stats";
+import Image from "next/image";
 
 const ServiciosLanding = () => {
   return (
@@ -8,7 +9,7 @@ const ServiciosLanding = () => {
       <div className="flex flex-col  ">
         <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center mb-14 gap-7 m-44">
           <figure>
-            <img
+            <Image
               src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/1.png"
               alt=""
             />
@@ -16,21 +17,21 @@ const ServiciosLanding = () => {
           </figure>
 
           <figure>
-            <img
+            <Image
               src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/3.png"
               alt=""
             />
             <Stats />
           </figure>
           <figure>
-            <img
+            <Image
               src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/4.png"
               alt=""
             />
             <Stats />
           </figure>
           <figure>
-            <img
+            <Image
               src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/2.png"
               alt=""
             />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const imageString: string =
@@ -17,7 +18,7 @@ const page = () => {
               illo.
             </p>
             <div className="flex  justify-center">
-              <img className="w-1/2 " src={imageString} alt="paisaje" />{" "}
+              <Image className="w-1/2 " src={imageString} alt="paisaje" />{" "}
             </div>
           </section>
         </div>

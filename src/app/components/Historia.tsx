@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Historia = () => {
@@ -5,7 +6,7 @@ const Historia = () => {
     <>
     <div className='flex flex-row h-screen p-10'>
         <div className='w-1/2 mr-5'>
-        <img  className='w-full  h-full object-cover rounded-lg'  src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg" alt="" />
+        <Image  className='w-full  h-full object-cover rounded-lg'  src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg" alt="" />
         </div>
         <div className='w-1/2'>
             <h1 className='text-center font-extrabold text-3xl mb-3'>HISTORIA</h1>

@@ -8,6 +8,7 @@ import style from "./styles-component/CarouselTest.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import servicesData from "@data/services.json";
+import Image from "next/image";
 
 // import required modules
 interface SliderPrincipalProps {
@@ -23,7 +24,7 @@ interface SliderPrincipalProps {
     >
       <div className="card card-compact w-full bg-base-100 shadow-xl   ">
         <figure>
-          <img
+          <Image
             src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
             alt="Shoes"
           />

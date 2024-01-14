@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import servicesData from "@data/services.json";
 import style from "./styles-component/CarouselMini.module.css";
+import Image from "next/image";
 
 interface SliderPrincipalProps {}
 
@@ -25,7 +26,7 @@ const SliderPrincipal: React.FC<SliderPrincipalProps> = () => {
     >
       <div className="card card-compact w-full bg-base-100 shadow-xl  ">
         <figure>
-          <img
+          <Image
             src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
             alt="Shoes"
           />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -61,7 +62,7 @@ const page = () => {
           </div>
         </div>
         <div className="w-1/2 h-full bg-black ">
-          <img
+          <Image
             className="w-full h-full  object-cover object-left rounded-lg opacity-60 rounded-l-none"
             src="https://www.mstholding.com/blog/wp-content/uploads/2020/03/iStock-808364658-e1584002771559.jpg"
             alt=""
