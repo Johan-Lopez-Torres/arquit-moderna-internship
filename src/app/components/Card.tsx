@@ -2,7 +2,7 @@ import DataEmployee from "@data/employees.json";
 import DataCustomers from "@data/testimonios.json";
 import DataService from "@data/services.json";
 import Link from "next/link";
-import Image from "next/image";
+import img from "next/image";
 
 //data de los clientes
 
@@ -11,7 +11,7 @@ export const CardCustomer = () => {
     <div key={index} className="card w-80 bg-gray-800 shadow-xl ">
       <div className="avatar flex justify-center mt-7 h-36">
         <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <Image alt="" className="w-full" src={customers.image} key={index} />
+          <img alt="" className="w-full" src={customers.image} key={index} />
         </div>
       </div>
 
@@ -39,7 +39,7 @@ export const CardEmployee = () => {
       </div>
       <div className="avatar justify-center mt-5   ">
         <div className="w-44 rounded-full  ring-indigo-600 ring-[5px] 	 ring-offset-base-100 ring-offset-4">
-          <Image alt="" className="w-full h-full" src={employee.image} key={index} />
+          <img alt="" className="w-full h-full" src={employee.image} key={index} />
         </div>
       </div>
 
@@ -88,7 +88,7 @@ export const CardService = () => {
         className="card  bg-gray-800 shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 "
       >
         <figure className=" ">
-          <Image
+          <img
             src={service.image}
             alt="Movie"
             key={index}
@@ -116,7 +116,7 @@ export const CardServiceLanding = () => {
     <Link key={index} href={`${service.endpoint}   `}>
       <div className="card  bg-base-100 shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none ">
         <figure className=" ">
-          <Image
+          <img
             src={service.image}
             alt="Movie"
             key={index}
