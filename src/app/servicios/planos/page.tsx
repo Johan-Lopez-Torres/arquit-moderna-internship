@@ -4,7 +4,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className = "  h-screen " >
+    <div className = " m-16   " >
       <GridLayoutServicios />
     </div>
   )
