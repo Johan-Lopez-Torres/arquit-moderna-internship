@@ -14,16 +14,16 @@ const Hero = () => {
         <div className="hero-content text-center text-neutral-content opacity-100 ">
           <div className="max-w-5xl 	backdrop-blur-sm  		">
             <p className="mb-5  font-extrabold  leading-9 ">
-              <span className="text-5xl text-pink font-bold  text-white">
+              <span className="text-5xl text-pink font-bold  ">
                 SOMOS UN EQUIPO{" "}
               </span>
               <br />{" "}
-              <span className="font-light text-white text-4xl">
+              <span className="font-bold text-white  text-5xl">
                 DE PROFESIONALES EN
               </span>{" "}
-              <br /> <span className=" text-5xl text-rose-600  ">DISEÑOS DE PROYECTOS</span>{" "}
+              <br /> <span className=" text-5xl ">DISEÑOS DE PROYECTOS</span>{" "}
               <br />{" "}
-              <span className="text-white font-light text-5xl">ARQUITECTÓNICOS</span>{" "}
+              <span className="text-white font-bold text-5xl">ARQUITECTÓNICOS</span>{" "}
             </p>
           </div>
         </div>

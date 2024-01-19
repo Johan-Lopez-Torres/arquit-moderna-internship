@@ -19,7 +19,7 @@ const ImageComponent = ({ image }: { image: string }) => {
       <Image
         src={image}
         alt="Picture of the author"
-        className="object-cover h-full w-full   rounded-3xl"
+        className="object-cover h-full w-full   rounded-xl  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:opacity-60 duration-150 "
         width={500}
         height={500}
       />
@@ -31,8 +31,8 @@ const GridLayoutServicios = () => {
   return (
     <>
       {/* IMAGENES GRID */}
-      <div className="2xl:m-auto text-white">
-        <div className="grid gap-5 sm:max-h-screen md:min-h-min grid-cols-2 grid-rows-5 sm:grid-cols-2 sm:grid-rows-4 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-5 lg:grid-rows-6">
+      <div className="  text-white">
+        <div className="grid gap-5  lg:max-h-screen  grid-cols-2 grid-rows-5 sm:grid-cols-2 sm:grid-rows-4 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-5 lg:grid-rows-6">
           <div className="col-span-1 row-span-2 sm:col-span-1 md:col-span-1 md:row-span-2 lg:col-span-2 lg:row-span-3">
             <ImageComponent image={image1} />
           </div>
@@ -45,7 +45,7 @@ const GridLayoutServicios = () => {
 
           {/* TEXTO GRID */}
           <div
-            className="p-16 col-span-2 row-span-3 row-start-1 sm:col-span-2 sm:row-span-2 sm:row-start-1 md:col-span-3 md:row-span-2 md:row-start-1 lg:col-span-3 lg:row-span-6 bg-base-300 rounded-3xl"
+            className="p-16 col-span-2 row-span-3 row-start-1 sm:col-span-2 sm:row-span-2 sm:row-start-1 md:col-span-3 md:row-span-2 md:row-start-1 lg:col-span-3 lg:row-span-6 bg-base-300 rounded-xl"
           >
             <h1 className="text-center font-extrabold text-3xl pb-4">
               {titulo}

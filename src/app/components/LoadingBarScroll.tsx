@@ -1,8 +1,9 @@
-import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
+"use client";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 import React from "react";
 
-const LoadingBarScroll = ({ children }: { children: React.ReactNode }) => {
+const LoadingBarScroll = async () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -11,14 +12,7 @@ const LoadingBarScroll = ({ children }: { children: React.ReactNode }) => {
   });
   return (
     <>
-      <AnimatePresence>
-        <motion.div
-          className="progress-bar z-50"
-          style={{ scaleX }}
-        >
-            {children}
-        </motion.div>
-      </AnimatePresence>
+      <motion.div className="progress-bar z-50" style={{ scaleX }}></motion.div>
     </>
   );
 };

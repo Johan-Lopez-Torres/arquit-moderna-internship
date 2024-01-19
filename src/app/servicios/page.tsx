@@ -6,7 +6,6 @@ import PageWrapper from "../components/PageWrapper";
 const Page = () => {
   return (
     <>
-      <PageWrapper>
         <div className="m-12 ">
           {/* <div className="divider  divider-accent mb-14 ">
             <h1 className="text-2xl font-semibold">PLANOS</h1>
@@ -15,7 +14,6 @@ const Page = () => {
             <CardService />
           </div>
         </div>
-      </PageWrapper>
     </>
   );
 };

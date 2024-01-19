@@ -1,5 +1,5 @@
 {
-    "links": [
+    "NavbarLinks": [
       {
         "id": 1,
         "name": "INICIO",
@@ -14,7 +14,7 @@
             "id": 1,
             "name": "PLANOS",
             "url": "/servicios/planos",
-            "planosData": [
+            "TiposPlanos": [
               {
                 "id": 1,
                 "name": "DISTRIBUCIÓN",
