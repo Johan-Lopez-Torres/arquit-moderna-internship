@@ -40,6 +40,7 @@ export default function RootLayout({
       >
           <LoadingBarScroll />
           <Navbar />
+          <NavbarMejorado />
           <NavbarSecundario />
           {children}
           <Footer />

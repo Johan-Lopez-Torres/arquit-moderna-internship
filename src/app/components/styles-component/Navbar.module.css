@@ -1,62 +1,53 @@
 /* styles.module.css */
 
-
-
-
-
-
-
-
 .submenu {
-    position: absolute;
-    width: 150px;
-    left: 0;
-    display: none;
+  position: absolute;
+  width: 150px;
+  left: 0;
+  display: none;
 }
 
-
 .submenu2 {
-    position: absolute;
-    left: 100%;
-    width: 140px;
-    top: 0;
-    display: none;
+  position: absolute;
+  left: 100%;
+  width: 140px;
+  top: 0;
+  display: none;
 }
 
 .menu li:hover > .submenu {
-    display: block;
+  display: block;
 }
-.submenu li:hover >.submenu2 {
-    display: block;
+.submenu li:hover > .submenu2 {
+  display: block;
 }
 
-.menu > li, .menu > a{
+
+.menu > li {
     display: inline-block;
 }
 
-.menu a:hover{
-    background-color:blueviolet;
-    
+.menu a:hover {
+  background-color: blueviolet;
 }
 
 .menu li {
-    position: relative;
+  position: relative;
 }
 
-.menu a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px 1.5rem;
-    transform: background-color  0.9s  ;
-    border-radius: 0;
-
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px 1.5rem;
+  transform: background-color 0.9s;
+  border-radius: 0;
+  text-align: center;
 }
 
-.submenu2 > li > a{
-    font-size: 0.75rem;
-    border-radius: 0;
-    padding: 10px 1.5rem;
-    transform: background-color  0.9s  ;
+.submenu2 > li > a {
+  font-size: 0.75rem;
+  border-radius: 0;
+  padding: 10px 1.5rem;
+  transform: background-color 0.9s;
 }
-
