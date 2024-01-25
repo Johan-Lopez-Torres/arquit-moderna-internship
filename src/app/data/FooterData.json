@@ -1,0 +1,61 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Planos"
+    },
+    {
+      "id": 2,
+      "nombre": "Fachada 3D"
+    },
+    {
+      "id": 3,
+      "nombre": "Diseño exterior e interior"
+    },
+    {
+      "id": 4,
+      "nombre": "Construccioón de obra"
+    },
+    {
+      "id": 5,
+      "nombre": "Remodelación de obra"
+    },
+    {
+      "id": 6,
+      "nombre": "Ampliación de obra"
+    }
+  ],
+  "ContactoInfo": [
+    {
+      "id": 1,
+      "nombre": "Av. Pacífico Centro Ferretero | Tienda N° 62"
+    },
+    {
+      "id": 2,
+      "nombre": "93432432"
+    },
+    {
+      "id": 3,
+      "nombre": "sangers.corp@gmail.com"
+    }
+  ],
+  "Nosotros": [
+    {
+      "id": 1,
+      "nombre": "Misión y visión",
+      "link": "/nosotros/mision-vision "
+    },
+    {
+      "id": 2,
+      "nombre": "Historia",
+      "link": "/nosotros/historia"
+
+    },
+    {
+      "id": 3,
+      "nombre": "Equipo",
+      "link": "/nosotros/equipo"
+
+    }
+  ]
+}

@@ -9,9 +9,9 @@ import img from "next/image";
 export const CardCustomer = () => {
   const dataCustomer = DataCustomers.map((customers, index) => (
     <div key={index} className="card w-80 bg-gray-800 shadow-xl ">
-      <div className="avatar flex justify-center mt-7 h-36">
-        <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img alt="" className="w-full " src={customers.image} key={index} />
+      <div className="avatar flex justify-center mt-7 h-44">
+        <div className="w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <img alt="" className="w-full h-full " src={customers.image} key={index} />
         </div>
       </div>
 
