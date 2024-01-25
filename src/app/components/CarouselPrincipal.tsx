@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import style from "./styles-component/CarouselGrande.module.css";
 
 // Our custom button component
-import SliderButtons from "./sub-componentes/SliderButtons";
+import SliderButtons from "./componentes-simples/SliderButtons";
 
 interface Slide {
   id: number;
