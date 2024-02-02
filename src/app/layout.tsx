@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NavbarSecundario from "./components/NavbarSecundario";
 import LoadingBarScroll from "./components/LoadingBarScroll";
-import NavbarMejorado from "./components/NavbarMejorado";
 
 export const metadata: Metadata = {
   title: "Create Next App",

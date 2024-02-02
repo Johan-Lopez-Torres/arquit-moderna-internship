@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "path": "/images/blur_prueba/imagen_1.jpg",
+    "hashCode": "LEHLh[WB2yk8pyoJadR*.7kCMdnj",
+    "class": "border border-primary",
+    "alt": "this is a alternativate image"
+  },
+  {
+    "id": "2",
+    "path": "/images/blur_prueba/imagen_2.jpg",
+    "hashCode": "LEHLh[WB2yk8pyoJadR*.7kCMdnj",
+    "class": "border border-primary",
+    "alt": "this is a alternativate image"
+  },
+  {
+    "id": "3",
+    "path": "/images/blur_prueba/imagen_3.jpg",
+    "hashCode": "LEHLh[WB2yk8pyoJadR*.7kCMdnj",
+    "class": "border border-primary",
+    "alt": "this is a alternativate image"
+  }
+]

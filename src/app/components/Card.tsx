@@ -1,6 +1,6 @@
-import DataEmployee from "@data/employees.json";
-import DataCustomers from "@data/testimonios.json";
-import DataService from "@data/services.json";
+import DataEmployee from "@data/Equipo.json";
+import DataCustomers from "@data/Testimonios.json";
+import DataService from "@data/Servicios.json";
 import Link from "next/link";
 import img from "next/image";
 

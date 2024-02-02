@@ -1,4 +1,5 @@
-import servicios from "@data/services.json";
+import Image from "next/image";
+import BlurImagesData from "@data/BlurImagenes.json";
 
 // pages/Gallery.tsx
 // import React from 'react';
@@ -23,7 +24,7 @@ import servicios from "@data/services.json";
 // };
 
 // export default Gallery;
-
+/* 
 import React from "react";
 
 const page = () => {
@@ -46,6 +47,33 @@ const page = () => {
           <img src="https://source.unsplash.com/gfMWhkDCwYM" alt="" />
           <img src="https://source.unsplash.com/8KtqjrskUg8" alt="" />
           <img src="https://source.unsplash.com/qAaGXj-AOv4" alt="" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default page;
+ */
+
+import React from "react";
+import BlurImage from "../components/BlurImage";
+
+export const page = () => {
+  return (
+    <>
+      <div className="h-screen m-12">
+        <div className="">
+          <div className=" w-52 h-36">
+            {BlurImagesData.map((image, index) => (
+              <BlurImage
+                key={index}
+                hash={image.hashCode || ""}
+                src={image.path || ""}
+                imgClass="mt-5"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>
