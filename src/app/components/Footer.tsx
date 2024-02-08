@@ -15,25 +15,33 @@ const Footer = () => {
         <nav className="">
           <div className="grid grid-flow-col gap-4 pt-10">
             <a href="#" target="_blank">
-              <SvgTwitter />
+              <SvgTwitter 
+              width={70}
+              height={70}
+              />
             </a>
             <a href="#" target="_blank" className="mx-8">
-              <SvgYoutube />
+              <SvgYoutube
+              width={70}
+              height={70}
+              />
             </a>
             <a href="#" target="_blank">
-              <SvgFacebook />
+              <SvgFacebook
+              width={70}
+              height={70}
+              />
             </a>
           </div>
         </nav>
 
         <div className="grid grid-cols-4 px-10">
-          <div className="">
+          <div className="main">
             <h1 className="mb-3 font-extrabold text-xl">ARQUIT MODERNA</h1>
             <p className="text-left font-medium">{description}</p>
           </div>
           <div>
             <div className="servicios y contacto">
-              <div className="">
                 <h1 className="font-extrabold text-xl mb-3">SERVICIOS</h1>
                 <ul className="text-left list-disc">
                   {FooterData.servicios.map((servicio) => (
@@ -46,7 +54,6 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
             </div>
           </div>
           <div>

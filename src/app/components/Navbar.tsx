@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" navbar bg-base-100 px-10 sm:flex sm:justify-center justify-center">
-        <div className="navbar-start flex justify-center">
+        <div className="navbar-start flex justify-center md:justify-start">
           <div className="dropdown flex lg:justify-evenly">
             <div tabIndex={0} role="button" className="btn btn-ghost cm:hidden">
               <svg
@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost text-3xl text-rose-600 font-extrabold pr-1 "
+            className="btn btn-ghost text-3xl text-rose-600 font-extrabold pr-1  "
           >
             ARQUIT MODERNA
           </a>
