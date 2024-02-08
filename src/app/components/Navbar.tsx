@@ -9,10 +9,10 @@ const planos: string = "servicios/planos";
 const Navbar = () => {
   return (
     <>
-      <div className=" navbar bg-base-100 px-10 ">
-        <div className="navbar-start">
+      <div className=" navbar bg-base-100 px-10 sm:flex sm:justify-center justify-center">
+        <div className="navbar-start flex justify-center">
           <div className="dropdown flex lg:justify-evenly">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost cm:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -81,7 +81,7 @@ const Navbar = () => {
             ARQUIT MODERNA
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden cm:flex">
           <ul
             className={` ${styles.menu}  menu menu-vertical rounded-none sm:menu-horizontal font-bold `}
           >
@@ -111,7 +111,7 @@ const Navbar = () => {
                   <a href={` /${servicios}/fachada`}>FACHADA 3D</a>
                 </li>
                 <li>
-                  <a href={` /${servicios}/diseno`}>
+                  <a href={` /${servicios}/disenos`}>
                     DISEÑO EXTERIOR E INTERIOR
                   </a>
                 </li>
@@ -125,40 +125,32 @@ const Navbar = () => {
                     REMODELACIÓN DE OBRA
                   </a>
                 </li>
-                <li>
-                  <a href={` /${servicios}/construccion`}>
-                    CONSTRUCCIÓN DE OBRA
-                  </a>
-                </li>
+
                 <li>
                   <a href={` /${servicios}/ampliacion`}>AMPLIACIÓN DE OBRA</a>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href={"#"}>NOSOTROS
-              
-              </Link>
+              <Link href={"#"}>NOSOTROS</Link>
               <ul
-                  className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
-                >
-                  <li className=" ">
-                    <ul
-                      className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
-                    >
-                      
-                    </ul>
-                  </li>
-                  <li>
-                      <Link href={"/nosotros/mision-vision"}>MISION Y VISION</Link>
-                     </li>
-                     <li>
-                      <Link href={"/nosotros/historia"}>HISTORIA</Link>
-                     </li>
-                     <li>
-                      <Link href={"/nosotros/equipo"}>EQUIPO</Link>
-                     </li>
-                </ul>
+                className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
+              >
+                <li className=" ">
+                  <ul
+                    className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
+                  ></ul>
+                </li>
+                <li>
+                  <Link href={"/nosotros/mision-vision"}>MISION Y VISION</Link>
+                </li>
+                <li>
+                  <Link href={"/nosotros/historia"}>HISTORIA</Link>
+                </li>
+                <li>
+                  <Link href={"/nosotros/equipo"}>EQUIPO</Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link href={"/testimonios"}>TESTIMONIOS</Link>

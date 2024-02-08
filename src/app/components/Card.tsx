@@ -2,7 +2,6 @@ import DataEmployee from "@data/Equipo.json";
 import DataCustomers from "@data/Testimonios.json";
 import DataService from "@data/Servicios.json";
 import Link from "next/link";
-import img from "next/image";
 
 //data de los clientes
 
@@ -11,7 +10,12 @@ export const CardCustomer = () => {
     <div key={index} className="card w-80 bg-gray-800 shadow-xl ">
       <div className="avatar flex justify-center mt-7 h-44">
         <div className="w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-          <img alt="" className="w-full h-full " src={customers.image} key={index} />
+          <img
+            alt=""
+            className="w-full h-full "
+            src={customers.image}
+            key={index}
+          />
         </div>
       </div>
 
@@ -39,7 +43,12 @@ export const CardEmployee = () => {
       </div>
       <div className="avatar justify-center mt-5   ">
         <div className="w-44 rounded-full  ring-indigo-600 ring-[5px] 	 ring-offset-base-100 ring-offset-4">
-          <img alt="" className="w-full h-full" src={employee.image} key={index} />
+          <img
+            alt=""
+            className="w-full h-full"
+            src={employee.image}
+            key={index}
+          />
         </div>
       </div>
 
@@ -47,9 +56,7 @@ export const CardEmployee = () => {
         <p className="text-left  w-5/6  text-sm leading-6">
           {employee.description}
         </p>
-        <a href="https://facebook.com" target="_blank">
-        
-        </a>
+        <a href="https://facebook.com" target="_blank"></a>
       </div>
     </div>
   ));
@@ -72,7 +79,7 @@ export const CardService = () => {
           />
         </figure>
         <div className="card-body p-5 ">
-          <h2 className="card-title text-lg leading-6 text-center ">
+          <h2 className="card-title text-lg leading-6 text-center justify-center">
             {service.name}{" "}
           </h2>
           <p className="leading-6 text-sm">{service.description} </p>
@@ -100,7 +107,7 @@ export const CardServiceLanding = () => {
           />
         </figure>
         <div className="card-body p-5  ">
-          <h2 className="card-title text-base leading-6 text-center ">
+          <h2 className="card-title text-base leading-6 text-center justify-center ">
             {service.name}{" "}
           </h2>
         </div>

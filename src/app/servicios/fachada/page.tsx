@@ -1,4 +1,4 @@
-import Image from "next/image";
+import GridLayoutServicios from "@/app/components/GridLayoutServicios";
 import React from "react";
 
 const imageString: string =
@@ -7,42 +7,13 @@ const imageString: string =
 const page = () => {
   return (
     <div className="m-12">
-      <div className="grid grid-rows-3 grid-col-2 grid-flow-col gap-14 min-h-screen  ">
-        <div className="row-span-3   bg-blue-500 w-full h-full rounded-xl flex items-center ">
-          <section className="py-8 px-8 flex flex-col gap-2 ">
-            <h1 className="text-2xl font-extrabold font-serif text-slate-800 ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.{" "}
-            </h1>
-            <p className="text-2xl font-extrabold font-mono text-rose-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ab
-              illo.
-            </p>
-            <div className="flex  justify-center">
-              <Image className="w-1/2 " src={imageString} alt="paisaje" />{" "}
-            </div>
-          </section>
-        </div>
-        <div className="col-span-2     bg-success  w-full h-full rounded-2xl">
-          <section className="py-8 px-12">
-            <h1 className="font-extrabold text-xl ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 1{" "}
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ab
-              illo.
-            </p>
-          </section>
-        </div>
-          <div className="row-span-2 col-span-2    bg-secondary   w-full h-full  ">
-            <h1 className="font-gotham text-2xl">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.{" "}
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ab
-              illo.
-            </p>
-          </div>
-      </div>
+      <GridLayoutServicios 
+        imagen1={imageString}
+        imagen2={imageString}
+        imagen3={imageString}
+        texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?"
+        titulo="Lorem ipsum dolor sit amet consectetur."
+      />
     </div>
   );
 };

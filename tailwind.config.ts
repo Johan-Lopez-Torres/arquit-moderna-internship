@@ -8,6 +8,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+
+      md: "768px",
+
+      lg: "1024px",
+      cm: "1120px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -15,9 +27,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        gotham: ['var(--font-gotham)'],
+        gotham: ["var(--font-gotham)"],
       },
-      
+
       colors: {
         transparent: "transparent",
         current: "currentColor",
@@ -29,7 +41,7 @@ const config: Config = {
         silver: "#ecebff",
         "bubble-gum": "#ff77e9",
         bermuda: "#00CABE",
-        rojo: "#E91E31"
+        rojo: "#E91E31",
       },
     },
   },
@@ -54,7 +66,7 @@ const config: Config = {
 
         error: "#f35867",
       },
-    }, 
+    },
   ],
 
   plugins: [daisyui],
