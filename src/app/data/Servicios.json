@@ -3,7 +3,7 @@
     "key": 1,
     "name": "PLANOS",
     "description": "Transformamos espacios para reflejar su estilo y personalidad.",
-    "image": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+    "image": "https://c1.wallpaperflare.com/preview/997/545/202/morning-rainy-photography-architecture-reflection.jpg",
     "endpoint": "/servicios/planos",
     "GridLayoutProps": {
       "imagenes": [
@@ -138,7 +138,7 @@
   },
   {
     "key": 6,
-    "name": "Servicio de Restauración de Edificios Históricos",
+    "name": "Diseño de cocinas",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "https://i0.wp.com/thearchspace.com/wp-content/uploads/2023/06/Best-of-2014-Scupltural-Architecture-Buildings-Architects-SQ3.jpg?resize=675%2C675&ssl=1",
     "endpoint": "/servicios/diseño-interiores",
@@ -166,7 +166,7 @@
   },
   {
     "key": 7,
-    "name": "Servicio de Restauración de Edificios Históricos",
+    "name": "Cortes y elavaciones a detalle",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxtnzsOsYXReVOkSJWGBY1ypY1b3BMYL559nYjzJAhuw17PBkcrOqqVEQacgZI0QSI3E&usqp=CAU",
     "endpoint": "/servicios/diseño-interiores",
@@ -194,7 +194,7 @@
   },
   {
     "key": 8,
-    "name": "Servicio de Restauración de Edificios Históricos",
+    "name": "Diseño de dormitorio",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "https://images.adsttc.com/media/images/6338/66fb/4dba/6e52/5dde/7259/medium_jpg/post-human-aesthetics-in-architecture-interview-with-matias-del-campo_1.jpg?1664640928",
     "endpoint": "/servicios/diseño-interiores",
@@ -219,33 +219,6 @@
       "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?",
       "titulo": "PLANOS"
     }
-  },
-  {
-    "key": 9,
-    "name": "Servicio de Restauración de Edificios Históricos",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://wallpaper.dog/large/10788863.jpg",
-    "endpoint": "/servicios/diseño-interiores",
-    "GridLayoutProps": {
-      "imagenes": [
-        {
-          "key": 1,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 1"
-        },
-        {
-          "key": 2,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 2"
-        },
-        {
-          "key": 3,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 3"
-        }
-      ],
-      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?",
-      "titulo": "PLANOS"
-    }
   }
+  
 ]

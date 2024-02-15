@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NavbarSecundario from "./components/NavbarSecundario";
 import LoadingBarScroll from "./components/LoadingBarScroll";
+import FooterEnhaced from "./components/FooterEnhaced";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -39,9 +40,12 @@ export default function RootLayout({
       >
           <LoadingBarScroll />
           <Navbar />
-          <NavbarSecundario />
+          <div className="hidden md:block">
+            <NavbarSecundario />
+          </div>
           {children}
-          <Footer />
+          {/* <Footer /> */}
+          <FooterEnhaced />
       </body>
     </html>
   );

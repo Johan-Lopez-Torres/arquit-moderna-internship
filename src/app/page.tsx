@@ -12,17 +12,16 @@ import MisionVision from "./components/MisionVision";
 import PageWrapper from "./components/PageWrapper";
 
 const Page = async () => {
- 
   return (
     <>
-      <PageWrapper >
-      <Hero />
-      <DemoSlider data={dataSlider} />
-      <BentoGrid />
-      <MisionVision />
-      <ServiciosLanding />
+      <PageWrapper>
+        <Hero />
+        <DemoSlider data={dataSlider} />
+        {/*       <BentoGrid />
+         */}{" "}
+        <MisionVision />
+        <ServiciosLanding />
       </PageWrapper>
-
     </>
   );
 };

@@ -6,41 +6,22 @@ const ServiciosLanding = () => {
   return (
     <>
       <div className="flex flex-col  ">
-        <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center mb-14 gap-7 m-44">
+        <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center mb-14 gap-7 m-20">
           <figure>
-            <img
-              src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/1.png"
-              alt=""
-               
-            />
+            <img className="w-40" src="/images/iconos/hogar.png" alt="" />
             <Stats />
           </figure>
 
           <figure>
-            <img
-              src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/3.png"
-              alt=""
-               
-
-            />
+            <img className="w-40" src="/images/iconos/lapicero.png" alt="" />
             <Stats />
           </figure>
           <figure>
-            <img
-              src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/4.png"
-              alt=""
-               
-
-            />
+            <img className="w-40" src="/images/iconos/usuarios.png" alt="" />
             <Stats />
           </figure>
           <figure>
-            <img
-              src="https://jpconsultoriatesis.com/wp-content/uploads/2023/03/2.png"
-              alt=""
-               
-
-            />
+            <img className="w-40" src="/images/iconos/globo.png" alt="" />
             <Stats />
           </figure>
         </div>

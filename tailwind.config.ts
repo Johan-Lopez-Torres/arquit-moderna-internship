@@ -42,6 +42,7 @@ const config: Config = {
         "bubble-gum": "#ff77e9",
         bermuda: "#00CABE",
         rojo: "#E91E31",
+        negro: "#19191A"
       },
     },
   },
