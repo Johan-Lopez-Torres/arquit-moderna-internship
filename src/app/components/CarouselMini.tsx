@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import servicesData from "@data/services.json";
+import servicesData from "@data/Servicios.json";
 import style from "./styles-component/CarouselMini.module.css";
 import Image from "next/image";
 

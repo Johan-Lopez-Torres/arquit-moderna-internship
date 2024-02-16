@@ -7,7 +7,7 @@ import style from "./styles-component/CarouselTest.module.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import servicesData from "@data/services.json";
+import servicesData from "@data/Servicios.json";
 import Image from "next/image";
 
 // import required modules

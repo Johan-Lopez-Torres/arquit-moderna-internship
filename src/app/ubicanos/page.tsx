@@ -1,4 +1,4 @@
-"use client";
+/* "use client";
 
 import { useState, useMemo } from "react";
 import {
@@ -112,4 +112,14 @@ export function Map() {
       </div>
     </>
   );
+} */
+
+import React from 'react'
+
+const page = () => {
+  return (
+    <div>page</div>
+  )
 }
+
+export default page
