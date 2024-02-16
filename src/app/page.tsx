@@ -1,5 +1,5 @@
-"use client";
-
+/* "use client";
+ */
 //Componentes
 import Hero from "./components/Hero";
 import DemoSlider from "./components/CarouselPrincipal";

@@ -3,21 +3,59 @@ import FooterData from "@data/FooterData.json";
 import { SvgFacebook, SvgTwitter, SvgYoutube } from "./SvgIcons";
 import Link from "next/link";
 
+type BotonLogoProps = {
+  href: string;
+  src: string;
+  alt: string;
+  className?: string;
+};
+
+const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
+  return (
+    <>
+      <a
+        href={href}
+        target="_blank"
+        className={` ${className} w-20 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150 `}
+      >
+        <div>
+          <img
+            className="flex items-center"
+            src={`/images/iconos/${src}`}
+            alt={alt}
+          />
+        </div>
+      </a>
+    </>
+  );
+};
+
 const FooterEnhaced: React.FC = () => {
   return (
     <>
       <div className="bg-neutral p-11 pb-0">
         <nav className="mb-9">
-          <div className="flex flex-row justify-center ">
-            <a href="#" target="_blank">
-              <SvgTwitter width={70} height={70} />
-            </a>
-            <a href="#" target="_blank" className="mx-8">
-              <SvgYoutube width={70} height={70} />
-            </a>
-            <a href="#" target="_blank">
-              <SvgFacebook width={70} height={70} />
-            </a>
+          <div className="flex flex-row justify-center  gap-9 ">
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="facebook.png"
+              alt="facebook"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="instagram.png"
+              alt="facebook"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="tik-tok.png"
+              alt="facebook"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="youtube1.png"
+              alt="facebook"
+            />
           </div>
         </nav>
         <div className="pb-6">
@@ -85,7 +123,7 @@ const FooterEnhaced: React.FC = () => {
       </div>
 
       <aside className="flex bg-neutral justify-center items-center w-full h-14  border-t-4 border-indigo-500   ">
-        <p className="text-md font-extrabold">
+        <p className="text-md font-extrabold text-center">
           Copyright © 2024 - All right reserved by ACME Industries Ltd
         </p>
       </aside>

@@ -1,3 +1,5 @@
+
+"use server";
 import GridLayoutServicios from "@/app/components/GridLayoutServicios";
 import DataServicios from "@data/Servicios.json";
 import React from "react";
