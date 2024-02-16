@@ -43,9 +43,9 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
             pagination={{ type: "bullets", clickable: true }}
             autoplay={{
               reverseDirection: true,
-              delay: 700,
+              delay: 800,
             }}
-            speed={2000}
+            speed={500}
             loop={true}
             modules={[Autoplay, Navigation, Pagination, Keyboard]}
             keyboard={{

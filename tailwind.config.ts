@@ -10,14 +10,10 @@ const config: Config = {
   theme: {
     screens: {
       sm: "640px",
-
       md: "768px",
-
       lg: "1024px",
       cm: "1120px",
-
       xl: "1280px",
-
       "2xl": "1536px",
     },
     extend: {
@@ -65,7 +61,7 @@ const config: Config = {
 
         warning: "#facc15",
 
-        error: "#f35867",
+        error: "#E91E31",
       },
     },
   ],

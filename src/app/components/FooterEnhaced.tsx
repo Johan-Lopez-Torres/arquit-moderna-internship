@@ -61,9 +61,11 @@ const FooterEnhaced: React.FC = () => {
         <div className="pb-6">
           <div className="grid  sm:grid-cols-2 lg:grid-cols-4 gap-11 mt-6 ">
             <div className="">
-              <h1 className="mb-3 font-extrabold text-xl text-center">
-                ARQUIT MODERNA
-              </h1>
+              <a href="/">
+                <h1 className="mb-3 font-extrabold text-xl text-center link link-hover">
+                  ARQUIT MODERNA
+                </h1>
+              </a>
               <p className="px-12 pt-0 sm:p-11 sm:pt-0 lg:p-0">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatibus laboriosam cumque fugiat praesentium, et, nostrum,
@@ -72,9 +74,11 @@ const FooterEnhaced: React.FC = () => {
               </p>
             </div>
             <div className="ml-12">
-              <h1 className="font-extrabold text-xl mb-3 text-center">
-                SERVICIOS
-              </h1>
+              <a href="/servicios">
+                <h1 className="font-extrabold text-xl mb-3 text-center link link-hover">
+                  SERVICIOS
+                </h1>
+              </a>
               <ul className="text-left list-disc ml-4">
                 {FooterData.servicios.map((servicio) => (
                   <li className="mb-1" key={servicio.id}>
@@ -88,9 +92,11 @@ const FooterEnhaced: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h1 className="font-extrabold text-xl mb-2 text-center  ">
-                NOSOTROS
-              </h1>
+              <a href="#">
+                <h1 className="font-extrabold text-xl mb-2 text-center  link link-hover">
+                  NOSOTROS
+                </h1>
+              </a>
               <ul className="text-md pl-3">
                 {FooterData.Nosotros.map((nosotros) => (
                   <li
@@ -98,21 +104,23 @@ const FooterEnhaced: React.FC = () => {
                     key={nosotros.id}
                   >
                     <Link href={`/nosotros/${nosotros.nombre}`}>
-                      <h2>{nosotros.nombre}</h2>
+                      <h2 className="link link-hover">{nosotros.nombre}</h2>
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h1 className="mb-5 font-extrabold text-xl mb- text-center ">
-                CONTÁCTENOS
-              </h1>
+              <a href="/contacto">
+                <h1 className="mb-5 font-extrabold text-xl mb- text-center link link-hover">
+                  CONTÁCTENOS
+                </h1>
+              </a>
               <ul className=" mb-6 px-8">
                 {FooterData.ContactoInfo.map((contacto) => (
                   <li className="text-left " key={contacto.id}>
-                    <Link href={`/nosotros/${contacto.nombre}`}>
-                      <h2>{contacto.nombre} </h2>
+                    <Link href={`${contacto.nombre}`}>
+                      <h2 className="link link-hover">{contacto.nombre} </h2>
                     </Link>
                   </li>
                 ))}

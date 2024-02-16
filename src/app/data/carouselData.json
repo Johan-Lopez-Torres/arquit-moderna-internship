@@ -29,13 +29,13 @@
     },
     {
       "id": 2,
-      "title": "PREMIER LEAGUE",
+      "title": "ITS JUST A EXAMPLE",
       "tagline": "IF YOU LIKE IT",
       "image": "https://images.adsttc.com/media/images/5cbf/b5d1/284d/d17f/4b00/00d9/newsletter/FEATURE-_ChuckanutCove-001.jpg?1556067782",
       "buttons": [
         {
           "id": 1,
-          "text": "MACHESTER CITY IS THE FUCKING CHAMPIONS",
+          "text": "EXAMPLE FOR A DEMO",
           "link": "https://www.linkedin.com/in/johan-lopez-torres/",
           "type": "btn-dark btn-circle"
         }

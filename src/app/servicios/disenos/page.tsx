@@ -3,8 +3,8 @@ import React from "react";
 import DataServicios from "@data/Servicios.json";
 
 //Imagenes y string de la pagina
-const imagenes = DataServicios[1].GridLayoutProps;
-const strings = DataServicios[1].GridLayoutProps;
+const imagenes = DataServicios[2].GridLayoutProps;
+const strings = DataServicios[2].GridLayoutProps;
 
 const page = () => {
   return (
