@@ -3,7 +3,6 @@ import { Inter, Noto_Sans_JP, Caveat } from "next/font/google";
 import "./globals.css";
 //Components
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import NavbarSecundario from "./components/NavbarSecundario";
 import LoadingBarScroll from "./components/LoadingBarScroll";
 import FooterEnhaced from "./components/FooterEnhaced";
