@@ -1,5 +1,5 @@
 import DataEmployee from "@data/Equipo.json";
-import DataCustomers from "../data/Testimonios.json"  /* "@data/Testimonios.json" */;
+import DataCustomers from "../data/testimonios.json"  /* "@data/Testimonios.json" */;
 import DataService from "@data/Servicios.json";
 import Link from "next/link";
 
