@@ -3,9 +3,11 @@
 .submenu {
   position: absolute;
   width: 150px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: none;
 }
+
 
 .submenu2 {
   position: absolute;

@@ -4,8 +4,8 @@ import React from "react";
 const Historia = () => {
   return (
     <>
-      <div className="flex flex-row h-screen p-10">
-        <div className="w-1/2 mr-5">
+      <div className="flex flex-col md:flex-row min-h-screen p-10">
+        <div className=" lg:1/2  mr-5">
           <Image
             className="w-full  h-full object-cover rounded-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:opacity-60 duration-150"
             src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg"
@@ -14,7 +14,7 @@ const Historia = () => {
             alt=""
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <h1 className="text-center font-extrabold text-3xl mb-3">HISTORIA</h1>
           <p className="p-4 text-lg leading-relaxed">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. A maiores

@@ -1,4 +1,6 @@
 import React from "react";
+import { BotonLogoProps } from "../utils/props";
+
 import {
   SvgCasa,
   SvgFacebook,
@@ -8,43 +10,70 @@ import {
   SvgYoutube,
 } from "./SvgIcons";
 
+const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
+  return (
+    <>
+      <a
+        href={href}
+        target="_blank"
+        className={` ${className} w-16 transition ease-in-out delay-150   hover:scale-60 hover:opacity-60 duration-150`}
+      >
+        <div>
+          <img
+            className="flex items-center"
+            src={`/images/iconos/${src}`}
+            alt={alt}
+          />
+        </div>
+      </a>
+    </>
+  );
+};
+
 const NavbarSecundario = () => {
   return (
     <>
       <div className="navbar bg-neutral min-h-min h-12 ">
         <div className="flex-1 gap-6 flex-row">
           <ul className="flex flex-row gap-7 ml-5 items-center">
-            <li className="flex flex-row items-center gap-2  md:visible invisible">
+            <li className="flex flex-row items-center gap-2  md:visible invisible font-bold">
               <SvgCasa width={20} height={20} />
-              Nuevo Chimbote - Perú{" "}
+              Av. Pacifico Mz C1 Lt 3A - URB Casuarinas II Etapa - 4to Piso
+
             </li>
-            <li className="flex flex-row items-center gap-2">
+            <li className="flex flex-row items-center gap-2 font-bold">
               <SvgWhatsapp width={20} height={20} />
-              969419221
+              998871436
             </li>
 
-            <li className="flex flex-row items-center gap-2">
+            <li className="flex flex-row items-center gap-2 font-bold">
               <SvgGmail width={20} height={20} />
-              sangers.corp@gmail.com
+              arquit.moderna@gmail.com
             </li>
           </ul>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 display  sm:invisible md:invisible lg:visible  ">
+          <ul className="menu menu-horizontal px-1 display  sm:invisible md:invisible lg:visible   ">
             <li>
-              <a href="https://twitter.com/" target="_blank">
-                <SvgTwitter width={30} height={30} />
-              </a>{" "}
+              <BotonLogo
+                href="https://facebook.com"
+                src="facebook.png"
+                alt="facebook"
+              />
             </li>
             <li>
-              <a href="https://www.youtube.com/" target="_blank">
-                <SvgYoutube width={30} height={30} />
-              </a>
+              <BotonLogo
+                href="https://twitter.com"
+                src="instagram.png"
+                alt="twitter"
+              />
             </li>
             <li>
-              <a href="https://www.facebook.com/" target="_blank">
-                <SvgFacebook width={30} height={30} />
-              </a>
+              <BotonLogo
+                href="https://tik-tok.com/home"
+                src="tik-tok.png"
+                alt="twitter"
+              />
             </li>
           </ul>
         </div>

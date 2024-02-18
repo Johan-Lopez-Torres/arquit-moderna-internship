@@ -42,33 +42,36 @@ const config: Config = {
         "bubble-gum": "#ff77e9",
         bermuda: "#00CABE",
         rojo: "#E91E31",
-        negro: "#19191A"
+        negro: "#19191A",
       },
     },
   },
-  themes: [
-    {
-      mytheme: {
-        primary: "#00a7d2",
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+        /*    primary: "#00a7d2",
 
-        secondary: "#007cff",
+          secondary: "#7374C7",
 
-        accent: "#00f493",
+          accent: "#00f493",
 
-        neutral: "#111827",
+          neutral: "#111827",
 
-        "base-100": "#1f2937",
+          "base-100": "#1f2937",
 
-        info: "#8b5cf6",
+          info: "#8b5cf6",
 
-        success: "#2d8000",
+          success: "#2d8000",
 
-        warning: "#facc15",
+          warning: "#facc15",
 
-        error: "#f35867",
+          error: "#f35867", */
+        },
       },
-    },
-  ],
+      "dark"
+    ],
+  },
 
   plugins: [daisyui],
 };

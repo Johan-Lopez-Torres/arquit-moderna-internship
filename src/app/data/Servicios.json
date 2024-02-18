@@ -3,23 +3,23 @@
     "key": 1,
     "name": "PLANOS",
     "description": "Transformamos espacios para reflejar su estilo y personalidad.",
-    "image": "https://c1.wallpaperflare.com/preview/997/545/202/morning-rainy-photography-architecture-reflection.jpg",
+    "image": "https://i.pinimg.com/222x/58/af/59/58af59ebe2aa9296971bad84f1f7378e.jpg",
     "endpoint": "/servicios/planos",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://planodecasa.com/wp-content/uploads/2018/05/apartamentos-peque%C3%B1os-con-medidas-en-metros.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://images.unsplash.com/photo-1663811396500-d128a4df7369?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://images.homify.com/v1530170423/p/photo/image/2616827/Captura_de_pantalla_2018-06-28_a_las_2.19.47.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://images.unsplash.com/photo-1682685796852-aa311b46f50d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://i.pinimg.com/236x/7f/59/8c/7f598ca5d09aa9dcb123aa0cb4c28e36.jpg",
           "alt": "imagen 3"
         }
       ],
@@ -31,23 +31,23 @@
     "key": 2,
     "name": "FACHADA 3D",
     "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
-    "image": "https://ciudadjaragua.com/wp-content/uploads/2021/07/oriental_1.jpg",
+    "image": "https://2.bp.blogspot.com/-L7IwTZqKN8c/T9EhNKcGe1I/AAAAAAAAADM/zg4ejy3WFg4/s1600/FACHADA.jpg",
     "endpoint": "/servicios/fachada",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://images.unsplash.com/photo-1706550631013-22740cac2b4c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://images.homify.com/v1467254760/p/photo/image/1565334/12.1.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://images.unsplash.com/photo-1682687982141-0143020ed57a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://i.pinimg.com/236x/6b/7e/1f/6b7e1f33659fe70e275eb2e35bcb9638.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://images.unsplash.com/photo-1707129647210-4bf7c671ac91?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://i.pinimg.com/236x/e1/b2/94/e1b29431d417da436a37c0383e999156.jpg",
           "alt": "imagen 3"
         }
       ],
@@ -59,20 +59,20 @@
     "key": 3,
     "name": "DISEÑO DE INTERIORES Y EXTERIORES",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://i.pinimg.com/564x/a1/b6/41/a1b64176c1af47d2d40f5bf567c134cf.jpg",
+    "image": "https://i.pinimg.com/236x/82/0b/c9/820bc9d15a0d4420753c7bfab675ee4c.jpg",
     "endpoint": "/servicios/disenos",
     "GridLayoutProps": {
       "imagenes": [
         {
-          "src": "https://images.unsplash.com/photo-1682695797221-8164ff1fafc9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://images.adsttc.com/media/images/5e2e/cef0/3312/fd24/a900/01e3/newsletter/07.jpg?1580125927",
           "alt": "imagen 1"
         },
         {
-          "src": "https://images.unsplash.com/photo-1707386821706-b05bdb53ddf1?q=80&w=1406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://comoorganizarlacasa.com/wp-content/uploads/2022/01/revestimientos-para-entradas-modernas-1.jpg",
           "alt": "imagen 2"
         },
         {
-          "src": "https://images.unsplash.com/photo-1707343843982-f8275f3994c5?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://i.pinimg.com/474x/b7/9a/e6/b79ae6460085dd92c973b0eb41323f92.jpg",
           "alt": "imagen 3"
         }
       ],
@@ -84,23 +84,23 @@
     "key": 4,
     "name": "CONSTRUCCION DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://images.homify.com/image/upload/c_scale,h_500,w_500/v1467254760/p/photo/image/1565334/12.1.jpg",
+    "image": "https://www.arkiplus.com/wp-content/uploads/2011/05/que-es-construccion2.jpg",
     "endpoint": "/servicios/construccion",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://gatza.mx/wp-content/uploads/2021/04/2dc698a72ffaade979d6dfb329c60e47.jpeg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://www.arkiplus.com/wp-content/uploads/2011/05/que-es-construccion2.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://images.homify.com/image/upload/c_scale,h_500,w_500/v1437613608/p/photo/image/87231/DSC_0595.jpg",
           "alt": "imagen 3"
         }
       ],
@@ -112,107 +112,51 @@
     "key": 5,
     "name": "REMODELACION DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://images.adsttc.com/media/images/6338/66c6/7120/0249/7607/3cce/newsletter/post-human-aesthetics-in-architecture-interview-with-matias-del-campo_5.jpg?1664640749",
-    "endpoint": "/servicios/diseño-interiores",
+    "image": "https://wtcradio.net/wp-content/uploads/2023/06/IMG_6847.png",
+    "endpoint": "/servicios/remodelacion",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://images.unsplash.com/photo-1707143652532-36311d46023a?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://wtcradio.net/wp-content/uploads/2023/06/IMG_6847.png",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://plus.unsplash.com/premium_photo-1676977395918-7300b6375e99?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://www.eluniversal.com.co/binrepository/675x450/38c0/600d450/none/13704/RWLQ/acabados-de-una-vivienda_7162872_20221227093749.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://plus.unsplash.com/premium_photo-1706625698049-02ddcd91361d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "src": "https://i0.wp.com/oniria.pe/wp-content/uploads/2019/06/2b-2-765x1024.jpg?resize=574%2C768",
           "alt": "imagen 3"
         }
       ],
       "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?",
-      "titulo": "PLANOS"
+      "titulo": "REMODELACION DE OBRA"
     }
   },
   {
     "key": 6,
-    "name": "Diseño de cocinas",
+    "name": "AMPLIACIÓN DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://i0.wp.com/thearchspace.com/wp-content/uploads/2023/06/Best-of-2014-Scupltural-Architecture-Buildings-Architects-SQ3.jpg?resize=675%2C675&ssl=1",
-    "endpoint": "/servicios/diseño-interiores",
+    "image": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
+    "endpoint": "/servicios/ampliacion",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://www.aram.pe/images/pages/og/57-home-5bc4a2fcb2571.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://www.proyectosparaconstruir.com/wp-content/uploads/2017/05/render-aereo-recortado.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 3"
-        }
-      ],
-      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?",
-      "titulo": "PLANOS"
-    }
-  },
-  {
-    "key": 7,
-    "name": "Cortes y elavaciones a detalle",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxtnzsOsYXReVOkSJWGBY1ypY1b3BMYL559nYjzJAhuw17PBkcrOqqVEQacgZI0QSI3E&usqp=CAU",
-    "endpoint": "/servicios/diseño-interiores",
-    "GridLayoutProps": {
-      "imagenes": [
-        {
-          "key": 1,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 1"
-        },
-        {
-          "key": 2,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 2"
-        },
-        {
-          "key": 3,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 3"
-        }
-      ],
-      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore vel aut, exercitationem, voluptate, ea minus repellendus soluta praesentium molestiae veniam cum? Nisi maiores sint aut eligendi, explicabo asperiores nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus saepe blanditiis commodi nihil corporis. Reiciendis, sit nulla quo delectus commodi repellendus quibusdam mollitia. Accusamus doloremque ex magni voluptatem temporibus?",
-      "titulo": "PLANOS"
-    }
-  },
-  {
-    "key": 8,
-    "name": "Diseño de dormitorio",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://images.adsttc.com/media/images/6338/66fb/4dba/6e52/5dde/7259/medium_jpg/post-human-aesthetics-in-architecture-interview-with-matias-del-campo_1.jpg?1664640928",
-    "endpoint": "/servicios/diseño-interiores",
-    "GridLayoutProps": {
-      "imagenes": [
-        {
-          "key": 1,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 1"
-        },
-        {
-          "key": 2,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
-          "alt": "imagen 2"
-        },
-        {
-          "key": 3,
-          "src": "https://i.pinimg.com/474x/ef/bf/80/efbf8089e726a72be28ad8532c2e7e38.jpg",
+          "src": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
           "alt": "imagen 3"
         }
       ],
@@ -220,5 +164,6 @@
       "titulo": "PLANOS"
     }
   }
+ 
   
 ]

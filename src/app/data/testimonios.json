@@ -1,51 +1,38 @@
 [
-    {
-      "key": 1,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://onlineprofilepros.com/wp-content/uploads/2017/12/profile-photo.jpeg"
-    },
-    {
-      "key": 2,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQnCmWeGGfbX1nI2ol1ciYuYarKpGkUkvRQw&usqp=CAU"
-    },
-    {
-      "key": 3,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    },
-    {
-      "key": 4,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    },
-    {
-      "key": 5,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    },
-    {
-      "key": 6,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    },
-    {
-      "key": 7,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    },
-    {
-      "key": 8,
-      "name": "Harry Maguire",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
-      "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
-    }
-  ]
-  
+  {
+    "key": 1,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://onlineprofilepros.com/wp-content/uploads/2017/12/profile-photo.jpeg"
+  },
+  {
+    "key": 2,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQnCmWeGGfbX1nI2ol1ciYuYarKpGkUkvRQw&usqp=CAU"
+  },
+  {
+    "key": 3,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
+  },
+  {
+    "key": 4,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
+  },
+  {
+    "key": 5,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
+  },
+  {
+    "key": 6,
+    "name": "Harry Maguire",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laboriosam assumenda quidem dicta vero minima excepturi, voluptas autem similique, porro, esse consequatur.",
+    "image": "https://www.cameo.com/cdn-cgi/image/fit=cover,format=auto,width=500,height=500/https://cdn.cameo.com/resizer/r1WRvGBQd_avatar-rYmBSu7Vf.jpg"
+  }
+]

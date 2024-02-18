@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <div className=" navbar bg-base-100 px-10 sm:flex sm:justify-center justify-center">
         <div className="navbar-start flex justify-center md:justify-start">
-          <div className="dropdown flex lg:justify-evenly">
+          <div className="dropdown flex lg:justify-evenly  ">
             <div tabIndex={0} role="button" className="btn btn-ghost cm:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,16 +29,16 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              className={` ${styles.menu}   menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
+              className={` ${styles.menu} mr-12 mt-12  bg-slate-700   menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
             >
               <li className=" ">
-                <a href={` /${servicios}`}>SERVICIOS</a>
+                <a href={` /${servicios}` } className="">SERVICIOS</a>
                 <ul
-                  className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
+                  className={` ${styles.submenu}  ml-32 -mt-12  p-0   bg-slate-700  flex z-50`}
                 >
                   <li className=" ">
-                    <a href={` /${planos}`}>PLANOS</a>
-                    <ul
+                    
+                    {/* <ul
                       className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                     >
                       {navbarData.servicios.map((servicio) => (
@@ -48,7 +48,7 @@ const Navbar = () => {
                           </Link>
                         </li>
                       ))}
-                    </ul>
+                    </ul> */}
                   </li>
                   {navbarData.servicios.map((servicio) => (
                     <li key={servicio.id}>
@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost text-3xl text-rose-600 font-extrabold pr-1  "
+            className="btn btn-ghost text-3xl text-rojo font-extrabold pr-1  "
           >
             ARQUIT MODERNA
           </a>
@@ -95,7 +95,7 @@ const Navbar = () => {
               >
                 <li className=" ">
                   <a href={` /${planos}`}>PLANOS</a>
-                  <ul
+                {/*   <ul
                     className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                   >
                     {navbarData.servicios.map((servicio) => (
@@ -105,7 +105,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <a href={` /${servicios}/fachada`}>FACHADA 3D</a>

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const CardCustomer = () => {
   const dataCustomer = DataCustomers.map((customers, index) => (
-    <div key={index} className="card w-80 bg-gray-800 shadow-xl ">
+    <div key={index} className="card w-80 bg-base-300 shadow-xl ">
       <div className="avatar flex justify-center mt-7 h-44">
         <div className="w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
           <img
@@ -21,7 +21,7 @@ export const CardCustomer = () => {
 
       <div className="card-body items-center text-center">
         <h2 className="card-title font-extrabold">{customers.name} </h2>
-        <div className="divider divider-accent p-0 m-0"></div>
+        <div className="divider divider-neutral p-0 m-0"></div>
 
         <p>{customers.description} </p>
       </div>
@@ -35,10 +35,10 @@ export const CardEmployee = () => {
   const dataEmployee = DataEmployee.map((employee, index) => (
     <div
       key={index}
-      className=" card w-64 bg-gray-800   shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] 
+      className=" card w-64 bg-negro   shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] 
      transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200 "
     >
-      <div className="card card-body pt-4 pb-2 bg-slate-800 rounded-lg rounded-b-none items-center">
+      <div className="card card-body pt-4 pb-2 bg-negro  rounded-lg rounded-b-none items-center">
         <h2 className="card-title ">{employee.name} </h2>
       </div>
       <div className="avatar justify-center mt-5   ">
@@ -53,7 +53,7 @@ export const CardEmployee = () => {
       </div>
 
       <div className="card-body items-center  text-center mx-0 px-0 pt-5 pb-3">
-        <p className="text-left  w-5/6  text-sm leading-6">
+        <p className="text-left text-slate-100  w-5/6  text-sm leading-6">
           {employee.description}
         </p>
         <a href="https://facebook.com" target="_blank"></a>
@@ -68,14 +68,14 @@ export const CardService = () => {
     <Link key={index} href={`${service.endpoint}   `}>
       <div
         key={index}
-        className="card  bg-gray-800 shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 "
+        className="card  bg-negro shadow-xl w-56 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-base-300 hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 "
       >
         <figure className=" ">
           <img
             src={service.image}
             alt="Movie"
             key={index}
-            className="w-full h-full"
+            className="w-full h-64 object-cover"
           />
         </figure>
         <div className="card-body p-5 ">
@@ -83,10 +83,10 @@ export const CardService = () => {
             {service.name}{" "}
           </h2>
           <p className="leading-6 text-sm">{service.description} </p>
-          <div className="flex flex-row justify-evenly">
+         {/*  <div className="flex flex-row justify-evenly">
             <div className="badge badge-accent">ghost</div>
             <div className="badge badge-secondary">ghost</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Link>
