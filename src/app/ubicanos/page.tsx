@@ -97,13 +97,13 @@ export default function Home() {
                   <h2 className="card-title text-rose-500 font-extrabold">
                     EMAIL
                   </h2>
-                  <p className="text-white">sangers.corp@gmail.com</p>
+                  <p className="text-white">arquit.moderna@gmail.com</p>
                 </div>
               </div>
               <div className="card w-96 bg-neutral text-neutral-content mb-3">
                 <div className="card-body items-center text-center font-extrabold">
                   <h2 className="card-title text-rose-500">LLÁMANOS</h2>
-                  <p className="text-white">93423432</p>
+                  <p className="text-white">998871436</p>
                 </div>
               </div>
             </div>

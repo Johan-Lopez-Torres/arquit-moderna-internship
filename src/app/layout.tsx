@@ -39,7 +39,7 @@ export default function RootLayout({
       >
           <LoadingBarScroll />
           <Navbar />
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <NavbarSecundario />
           </div>
           {children}

@@ -39,7 +39,6 @@ const NavbarSecundario = () => {
             <li className="flex flex-row items-center gap-2  md:visible invisible font-bold">
               <SvgCasa width={20} height={20} />
               Av. Pacifico Mz C1 Lt 3A - URB Casuarinas II Etapa - 4to Piso
-
             </li>
             <li className="flex flex-row items-center gap-2 font-bold">
               <SvgWhatsapp width={20} height={20} />
