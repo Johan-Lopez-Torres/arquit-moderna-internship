@@ -7,21 +7,21 @@ const ServiciosLanding = () => {
     <>
       <div className="flex flex-col  ">
         <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center mb-14 gap-7 m-20 ">
-          <figure>
-            <img className="w-40" src="/images/iconos/hogar.png" alt="" />
+          <figure className="">
+            <div className="flex justify-center" ><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/hogar.png" alt="" /></div>
             <Stats />
           </figure>
 
           <figure>
-            <img className="w-40" src="/images/iconos/lapicero.png" alt="" />
+            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/lapicero.png" alt="" /></div>
             <Stats />
           </figure>
           <figure>
-            <img className="w-40" src="/images/iconos/usuarios.png" alt="" />
+            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/usuarios.png" alt="" /></div>
             <Stats />
           </figure>
           <figure>
-            <img className="w-40" src="/images/iconos/globo.png" alt="" />
+            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/globo.png" alt="" /></div>
             <Stats />
           </figure>
         </div>

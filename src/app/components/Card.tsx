@@ -97,16 +97,16 @@ export const CardService = () => {
 export const CardServiceLanding = () => {
   const dataService = DataService.map((service, index) => (
     <Link key={index} href={`${service.endpoint}   `}>
-      <div className="card  bg-negro shadow-xl w-56 h-80 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none mb-6">
+      <div className="card  bg-negro shadow-xl w-56  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none mb-6">
         <figure className=" ">
           <img
             src={service.image}
             alt="Movie"
             key={index}
-            className="w-full  hover:opacity-70  "
+            className="w-full h-64  hover:opacity-70  object-cover "
           />
         </figure>
-        <div className="card-body p-5  ">
+        <div className="card-body p-5  h-20">
           <h2 className="card-title text-base leading-6 text-center justify-center ">
             {service.name}{" "}
           </h2>

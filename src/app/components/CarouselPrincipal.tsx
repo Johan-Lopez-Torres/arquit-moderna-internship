@@ -68,7 +68,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                         {tagline}
                       </p>
                     )}
-                    <p className="text-3xl sm:text-6xl lg:text-8xl font-bold text-rose-600">
+                    <p className="text-3xl sm:text-6xl lg:text-8xl font-bold text-rojo">
                       {title}
                     </p>
                     {buttons.length > 0 ? (
