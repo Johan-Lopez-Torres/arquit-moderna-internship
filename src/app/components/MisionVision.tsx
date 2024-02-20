@@ -9,10 +9,7 @@ const MisionVision = () => {
             MISION
           </h1>
           <p className="p-6 leading-10 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            assumenda nam non saepe? Eius, inventore hic ducimus non, est fuga
-            ipsam dolores neque quaerat assumenda a adipisci provident delectus.
-            Exercitationem!
+          Ser reconocidos como líderes innovadores en el campo de la arquitectura, siendo una fuente de inspiración para la creación de espacios que mejoren la calidad de vida y respeten el entorno, tanto a nivel local como global. Nos esforzamos por ser pioneros en el diseño sostenible y en la integración de tecnologías emergentes para crear soluciones arquitectónicas vanguardistas y significativas.
           </p>
           <div className="flex justify-center">
             <div className="flex justify-center">
@@ -35,10 +32,7 @@ const MisionVision = () => {
             VISION
           </h1>
           <p className="p-6 leading-10 text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            assumenda nam non saepe? Eius, inventore hic ducimus non, est fuga
-            ipsam dolores neque quaerat assumenda a adipisci provident delectus.
-            Exercitationem!
+          Buscar el reconocimiento como líderes innovadores en la industria de la arquitectura, inspirando la creación de espacios que enriquezcan la calidad de vida y preserven el entorno a nivel local y global. Nos destacamos por ser pioneros en el diseño sostenible y la adopción de tecnologías emergentes, desarrollando soluciones arquitectónicas vanguardistas y de gran impacto.
           </p>
          
           <div className="flex flex-row justify-center">

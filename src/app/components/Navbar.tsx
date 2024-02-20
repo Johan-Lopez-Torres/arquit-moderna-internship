@@ -32,12 +32,13 @@ const Navbar = () => {
               className={` ${styles.menu} mr-12 mt-12  bg-slate-700   menu menu-vertical dropdown-content z-50 rounded-none sm:menu-horizontal `}
             >
               <li className=" ">
-                <a href={` /${servicios}` } className="">SERVICIOS</a>
+                <a href={` /${servicios}`} className="">
+                  SERVICIOS
+                </a>
                 <ul
                   className={` ${styles.submenu}  ml-32 -mt-12  p-0   bg-slate-700  flex z-50`}
                 >
                   <li className=" ">
-                    
                     {/* <ul
                       className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                     >
@@ -74,9 +75,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <a href="/">
+            <img className="btn-ghost w-20 mt-1 object-cover" src="/images/LOGO-COLOR.png" alt="" />
+          </a>
+
           <a
             href="/"
-            className="btn btn-ghost text-3xl text-rojo font-extrabold pr-1  "
+            className="btn btn-ghost text-3xl text-white  font-extrabold pr-1  "
           >
             ARQUIT MODERNA
           </a>
@@ -95,7 +100,7 @@ const Navbar = () => {
               >
                 <li className=" ">
                   <a href={` /${planos}`}>PLANOS</a>
-                {/*   <ul
+                  {/*   <ul
                     className={` ${styles.submenu2}  bg-slate-700   -ml-1  p-0   z-50 `}
                   >
                     {navbarData.servicios.map((servicio) => (

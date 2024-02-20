@@ -78,7 +78,7 @@ const FooterEnhaced: React.FC = () => {
               <ul className="text-left list-disc ml-4">
                 {FooterData.servicios.map((servicio) => (
                   <li className="mb-1" key={servicio.id}>
-                    <Link href={`/servicios/${servicio.nombre}`}>
+                    <Link href={`/servicios/${servicio.path}`}>
                       <h2 className="text-md link link-hover">
                         {servicio.nombre}
                       </h2>

@@ -2,27 +2,34 @@
   "servicios": [
     {
       "id": 1,
-      "nombre": "Planos"
+      "nombre": "Planos",
+      "path": "/planos"
     },
     {
       "id": 2,
-      "nombre": "Fachada 3D"
+      "nombre": "Fachada 3D",
+      "path": "/fachada"
     },
     {
       "id": 3,
-      "nombre": "Diseño exterior e interior"
+      "nombre": "Diseño exterior e interior",
+      "path": "/disenos"
     },
     {
       "id": 4,
-      "nombre": "Construccioón de obra"
+      "nombre": "Construccioón de obra",
+      "path": "/construccion"
     },
     {
       "id": 5,
-      "nombre": "Remodelación de obra"
+      "nombre": "Remodelación de obra",
+      "path": "/remodelacion"
+
     },
     {
       "id": 6,
-      "nombre": "Ampliación de obra"
+      "nombre": "Ampliación de obra",
+      "path": "/ampliacion"
     }
   ],
   "ContactoInfo": [

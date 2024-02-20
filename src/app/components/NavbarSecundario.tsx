@@ -55,21 +55,21 @@ const NavbarSecundario = () => {
           <ul className="menu menu-horizontal px-1 display  sm:invisible md:invisible lg:visible   ">
             <li>
               <BotonLogo
-                href="https://facebook.com"
+                href="https://www.facebook.com/arquitmoderna.oficial"
                 src="facebook.png"
                 alt="facebook"
               />
             </li>
             <li>
               <BotonLogo
-                href="https://twitter.com"
+                href="https://www.instagram.com/arquit.moderna/"
                 src="instagram.png"
                 alt="twitter"
               />
             </li>
             <li>
               <BotonLogo
-                href="https://tik-tok.com/home"
+                href="https://www.tiktok.com/@arquitmoderna?lang=es"
                 src="tik-tok.png"
                 alt="twitter"
               />
