@@ -50,26 +50,26 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-        /*    primary: "#00a7d2",
-
-          secondary: "#7374C7",
-
-          accent: "#00f493",
-
-          neutral: "#111827",
-
-          "base-100": "#1f2937",
-
-          info: "#8b5cf6",
-
-          success: "#2d8000",
-
-          warning: "#facc15",
-
-          error: "#f35867", */
+        
+"primary": "#cf00ff",
+        
+"secondary": "#00ddff",
+        
+"accent": "#d86f00",
+        
+"neutral": "#190a11",
+        
+"base-100": "#322622",
+        
+"info": "#0098ff",
+        
+"success": "#00b45e",
+        
+"warning": "#ff4300",
+        
+"error": "#eb4769",
         },
       },
-      "dark"
     ],
   },
 
