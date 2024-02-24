@@ -32,9 +32,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen m-12">
-        <div className="flex flex-row">
-          <div className="w-1/2">
+      <div className="min-h-screen m-12">
+        <div className="flex   flex-col md:flex-row">
+          <div className="md:w-1/2 w-full">
             <GoogleMap
               zoom={19}
               center={center}
@@ -69,9 +69,9 @@ export default function Home() {
               <div className="h-screen"></div>
             </GoogleMap>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 w-full">
             <div className="flex flex-col justify-center pt-6 items-center">
-              <div className="card w-96 bg-neutral text-neutral-content mb-3">
+              <div className="card w-96 bg-negro text-neutral-content mb-3">
                 <div className="card-body items-center text-center">
                   <h2 className="card-title text-rose-500 font-extrabold">
                     SIGUENOS
@@ -81,7 +81,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="card w-96 bg-neutral text-neutral-content mb-3">
+              <div className="card w-96 bg-negro text-neutral-content mb-3">
                 <div className="card-body items-center text-center">
                   <h2 className="card-title text-rose-500 font-extrabold">
                     DIRECCION
@@ -92,7 +92,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="card w-96 bg-neutral text-neutral-content mb-3">
+              <div className="card w-96 bg-negro text-neutral-content mb-3">
                 <div className="card-body items-center text-center">
                   <h2 className="card-title text-rose-500 font-extrabold">
                     EMAIL
@@ -100,7 +100,7 @@ export default function Home() {
                   <p className="text-white">arquit.moderna@gmail.com</p>
                 </div>
               </div>
-              <div className="card w-96 bg-neutral text-neutral-content mb-3">
+              <div className="card w-96 bg-negro text-neutral-content mb-3">
                 <div className="card-body items-center text-center font-extrabold">
                   <h2 className="card-title text-rose-500">LLÁMANOS</h2>
                   <p className="text-white">998871436</p>

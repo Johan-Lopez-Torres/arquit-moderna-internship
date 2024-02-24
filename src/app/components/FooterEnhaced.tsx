@@ -33,7 +33,7 @@ const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
 const FooterEnhaced: React.FC = () => {
   return (
     <>
-      <div className="bg-neutral p-11 pb-0">
+      <div className="bg-footer p-11 pb-0">
         <nav className="mb-9">
           <div className="flex flex-row justify-center  gap-9 ">
             <BotonLogo
@@ -55,7 +55,7 @@ const FooterEnhaced: React.FC = () => {
           </div>
         </nav>
         <div className="">
-          <div className="grid  sm:grid-cols-2 lg:grid-cols-4 gap-11 mt-6 ">
+          <div className="grid   sm:grid-cols-2 lg:grid-cols-4 gap-11 mt-6 ">
             <div className="mb-6 px-8">
               <a href="/">
                 <h1 className="mb-3 font-extrabold text-xl text-center link link-hover">
@@ -126,7 +126,7 @@ const FooterEnhaced: React.FC = () => {
         </div>
       </div>
 
-      <aside className="flex bg-neutral justify-center items-center w-full h-14  border-t-4 border-rojo   ">
+      <aside className="flex bg-footer justify-center items-center w-full h-14  border-t-4 border-rojo   ">
         <p className="text-md font-extrabold text-center">
           Copyright © 2024 - All right reserved by ACME Industries Ltd
         </p>

@@ -10,20 +10,25 @@ const Hero = () => {
             "url(https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2016-01/100x100_prefab_01.jpg?VersionId=VgFgdH9RaNMSpVeURWjI_99.EVkLUDre&itok=F2QL2XJZ)",
         }}
       >
-        <div className="hero-overlay "></div>
+        <div className="hero-overlay bg-[#2A323C] opacity-40 "></div>
         <div className="hero-content text-center text-neutral-content opacity-100 ">
           <div className="max-w-5xl 	backdrop-blur-sm  		">
             <p className="mb-5  font-extrabold  leading-9 ">
-              <span className= "text-3xl sm:text-4xl  md:text-5xl   text-pink font-bold  ">
+              <span className="text-3xl sm:text-4xl  md:text-5xl   text-pink font-bold  ">
                 SOMOS UN EQUIPO{" "}
               </span>
               <br />{" "}
               <span className="font-bold text-white text-3xl sm:text-4xl  md:text-5xl ">
                 DE PROFESIONALES EN
               </span>{" "}
-              <br /> <span className=" text-3xl sm:text-4xl  md:text-5xl ">DISEÑOS DE PROYECTOS</span>{" "}
               <br />{" "}
-              <span className="text-white font-bold text-3xl sm:text-4xl  md:text-5xl ">ARQUITECTÓNICOS</span>{" "}
+              <span className=" text-3xl sm:text-4xl  md:text-5xl ">
+                DISEÑOS DE PROYECTOS
+              </span>{" "}
+              <br />{" "}
+              <span className="text-white font-bold text-3xl sm:text-4xl  md:text-5xl ">
+                ARQUITECTÓNICOS
+              </span>{" "}
             </p>
           </div>
         </div>

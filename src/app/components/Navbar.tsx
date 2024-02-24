@@ -9,7 +9,7 @@ const planos: string = "servicios/planos";
 const Navbar = () => {
   return (
     <>
-      <div className=" navbar bg-base-100 px-10 sm:flex sm:justify-center justify-center">
+      <div className=" navbar bg-negro px-10 sm:flex sm:justify-center justify-center">
         <div className="navbar-start flex justify-center md:justify-start">
           <div className="dropdown flex lg:justify-evenly  ">
             <div tabIndex={0} role="button" className="btn btn-ghost cm:hidden">

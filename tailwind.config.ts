@@ -43,6 +43,8 @@ const config: Config = {
         bermuda: "#00CABE",
         rojo: "#E91E31",
         negro: "#19191A",
+        footer: "#1F2024",
+        
       },
     },
   },
@@ -50,24 +52,23 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-        
-"primary": "#cf00ff",
-        
-"secondary": "#00ddff",
-        
-"accent": "#d86f00",
-        
-"neutral": "#190a11",
-        
-"base-100": "#322622",
-        
-"info": "#0098ff",
-        
-"success": "#00b45e",
-        
-"warning": "#ff4300",
-        
-"error": "#eb4769",
+          primary: "#2A323C",
+
+          secondary: "#3f3cbb",
+
+          accent: "#00daff",
+
+          neutral: "#031f32",
+
+          "base-100": "#262626",
+
+          info: "#00cbff",
+
+          success: "#00ffca",
+
+          warning: "#ffb230",
+
+          error: "#ff6e8d",
         },
       },
     ],

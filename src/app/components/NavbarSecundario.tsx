@@ -33,7 +33,7 @@ const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
 const NavbarSecundario = () => {
   return (
     <>
-      <div className="navbar bg-neutral min-h-min h-12 ">
+      <div className="navbar bg-[#25262b] min-h-min h-12 ">
         <div className="flex-1 gap-6 flex-row">
           <ul className="flex flex-row gap-7 ml-5 items-center">
             <li className="flex flex-row items-center gap-2  md:visible invisible font-bold">

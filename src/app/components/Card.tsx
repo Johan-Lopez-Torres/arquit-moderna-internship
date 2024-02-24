@@ -9,7 +9,7 @@ export const CardCustomer = () => {
   const dataCustomer = DataCustomers.map((customers, index) => (
     <div key={index} className="card w-80 bg-base-300 shadow-xl ">
       <div className="avatar flex justify-center mt-7 h-44">
-        <div className="w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="w-44 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
           <img
             alt=""
             className="w-full h-full "
@@ -21,7 +21,7 @@ export const CardCustomer = () => {
 
       <div className="card-body items-center text-center">
         <h2 className="card-title font-extrabold">{customers.name} </h2>
-        <div className="divider divider-neutral p-0 m-0"></div>
+        <div className="divider divider-secondary p-0 m-0"></div>
 
         <p>{customers.description} </p>
       </div>
@@ -97,7 +97,7 @@ export const CardService = () => {
 export const CardServiceLanding = () => {
   const dataService = DataService.map((service, index) => (
     <Link key={index} href={`${service.endpoint}   `}>
-      <div className="card  bg-negro shadow-xl w-56  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none mb-6">
+      <div className="card  bg-[#1E1E26] shadow-xl w-64  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200      border-teal-600 hover:border-4 rounded-none mb-6">
         <figure className=" ">
           <img
             src={service.image}
@@ -107,7 +107,7 @@ export const CardServiceLanding = () => {
           />
         </figure>
         <div className="card-body p-5  h-20">
-          <h2 className="card-title text-base leading-6 text-center justify-center ">
+          <h2 className="card-title text-base leading-6 text-center justify-center font-bold ">
             {service.name}{" "}
           </h2>
         </div>

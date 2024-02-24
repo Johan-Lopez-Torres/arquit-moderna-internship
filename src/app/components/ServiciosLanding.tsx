@@ -5,34 +5,13 @@ import Stats from "./Stats";
 const ServiciosLanding = () => {
   return (
     <>
-      <div className="flex flex-col  ">
-        <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center mb-14 gap-7 m-20 ">
-          <figure className="">
-            <div className="flex justify-center" ><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/hogar.png" alt="" /></div>
-            <Stats />
-          </figure>
-
-          <figure>
-            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/lapicero.png" alt="" /></div>
-            <Stats />
-          </figure>
-          <figure>
-            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/usuarios.png" alt="" /></div>
-            <Stats />
-          </figure>
-          <figure>
-            <div className="flex justify-center"><img className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150" src="/images/iconos/globo.png" alt="" /></div>
-            <Stats />
-          </figure>
+      <div className="flex flex-col bg-[#1E1E26] ">
+        <div className="flex flex-col justify-center mb-4 mt-20">
+          <h1 className="font-semibold text-5xl text-center text-rojo mb-6">
+            Nuestros servicios
+          </h1>
         </div>
-        <figure>
-          <div className="flex justify-center mb-4 mt-20">
-            <h1 className="font-semibold text-5xl text-slate-200">
-              NUESTROS SERVICIOS
-            </h1>
-          </div>
-        </figure>
-        <div className="grid grid-cols-1  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center m-10 gap-5 ">
+        <div className="  grid grid-cols-1 mx-10 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center  gap-2 ">
           <CardServiceLanding />
         </div>
       </div>

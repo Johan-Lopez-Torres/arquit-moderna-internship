@@ -25,7 +25,7 @@ const ServiceLayout = () => {
             />
           </div>
 
-          <div className="col-start-1 row-start-1 col-span-2 row-span-2  sm:row-start-1 sm:col-span-2 sm:row-span-3  md:row-start-1 md:col-start-2 md:col-span-2 md:row-span-5 lg:col-span-3 lg:row-span-5 ">
+          <div className=" col-start-1 row-start-1 col-span-2 row-span-2  sm:row-start-1 sm:col-span-2 sm:row-span-3  md:row-start-1 md:col-start-2 md:col-span-2 md:row-span-5 lg:col-span-3 lg:row-span-5 ">
             <section className="  h-full flex flex-col content-between">
               <div>
                 <h1 className="text-center font-extrabold text-2xl text-white mb-6 ">
