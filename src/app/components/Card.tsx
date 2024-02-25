@@ -97,7 +97,7 @@ export const CardService = () => {
 export const CardServiceLanding = () => {
   const dataService = DataService.map((service, index) => (
     <Link key={index} href={`${service.endpoint}   `}>
-      <div className="card  bg-[#19191A] shadow-xl w-64  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200     border-4  border-purple hover:border-4 rounded-none mb-6">
+      <div className="card  bg-[#19191A] shadow-xl w-64  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:text-zinc-200 duration-200     rounded-md mb-6">
         <figure className=" ">
           <img
             src={service.image}

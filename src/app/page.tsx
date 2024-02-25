@@ -17,13 +17,14 @@ const Page = async () => {
     <>
       <PageWrapper>
       <Hero2 />
+      <StatsPage />
+
 
 {/*         <Hero />
  */}
         <DemoSlider data={dataSlider} />
         {/*       <BentoGrid />
          */}{" "}
-         <StatsPage />
         <ServiciosLanding />
         <MisionVision />
       </PageWrapper>

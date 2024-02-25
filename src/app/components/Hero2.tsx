@@ -17,29 +17,25 @@ export const Hero2 = () => {
         />
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-purple">
-            Brand new
-          </p>
-          <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-            Everything you
+        <div className="mb-16 lg:my-20 lg:max-w-lg lg:pr-5">
+          <h2 className="mb-5 font-sans text-3xl  tracking-tight text-white sm:text-5xl sm:leading-none font-medium">
+            Somos un equipo de profesionales
             <br className="hidden md:block" />
-            can imagine{" "}
-            <span className="inline-block text-rojo">
-              is real
+            en diseño de
+            <span className="inline-block text-rojo font-bold">
+              proyectos arquitectónicos
             </span>
           </h2>
-          <p className="pr-5 mb-5 text-base text-white md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+          <p className="pr-5 mb-5 text-base text-gray-300 md:text-lg">
+            Nuestro equipo de arquitectos combina visión y experiencia para
+            crear soluciones únicas y funcionales.
           </p>
           <div className="flex items-center">
             <a
               href="/"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rojo hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
-              Solicitar
+              Get started
             </a>
             <a
               href="/"
