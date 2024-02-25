@@ -33,19 +33,19 @@ const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
 const NavbarSecundario = () => {
   return (
     <>
-      <div className="navbar bg-[#25262b] min-h-min h-12 ">
+      <div className="navbar bg-rojo min-h-min h-12 ">
         <div className="flex-1 gap-6 flex-row">
           <ul className="flex flex-row gap-7 ml-5 items-center">
-            <li className="flex flex-row items-center gap-2  md:visible invisible font-bold">
+            <li className="text-white flex flex-row items-center gap-2  md:visible invisible font-bold">
               <SvgCasa width={20} height={20} />
               Av. Pacifico Mz C1 Lt 3A - URB Casuarinas II Etapa - 4to Piso
             </li>
-            <li className="flex flex-row items-center gap-2 font-bold">
+            <li className="text-white flex flex-row items-center gap-2 font-bold">
               <SvgWhatsapp width={20} height={20} />
               998871436
             </li>
 
-            <li className="flex flex-row items-center gap-2 font-bold">
+            <li className="text-white flex flex-row items-center gap-2 font-bold">
               <SvgGmail width={20} height={20} />
               arquit.moderna@gmail.com
             </li>
