@@ -6,7 +6,7 @@ const page = () => {
     <>
       <div className="min-h-screen flex-col flex px-20 py-5 my-8 sm:flex-col md:flex-row lg:flex-row  items-center ">
         <div className="w-1/2  h-full ">
-          <div className=" flex flex-col justify-center  overflow-hidden h-full w-full    ">
+          <div className=" flex flex-col justify-center  overflow-hidden h-full w-full  max-h-[1250px]  ">
             <div className="h-full w-full p-6  bg-base-300 rounded-md rounded-r-none shadow-md  ">
               <h1 className="text-3xl font-semibold text-center text-white ">
                 CONTÁCTANOS
@@ -85,19 +85,17 @@ const page = () => {
                   type="submit"
                   className="btn text-white bg-rose-600 mt-7  btn-block hover:bg-violet-800"
                 >
-                  SEND MESSAGE{" "}
+                  ENVIAR
                 </button>
               </form>
             </div>
           </div>
         </div>
-        <div className="w-1/2 h-full bg-black ">
-          <Image 
-            className="h-3/4 w-fit object-cover object-left rounded-lg opacity-60 rounded-l-none"
+        <div className="w-1/2 h-full bg-black max-h-[1250px]">
+          <img
+            className="object-cover object-left rounded-lg opacity-60 rounded-l-none max-h-[1250px]"
             src="https://www.mstholding.com/blog/wp-content/uploads/2020/03/iStock-808364658-e1584002771559.jpg"
             alt=""
-            width={500}
-            height={500}
           />
         </div>
       </div>

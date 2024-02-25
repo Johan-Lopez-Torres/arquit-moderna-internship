@@ -56,21 +56,21 @@ const NavbarSecundario = () => {
             <li>
               <BotonLogo
                 href="https://www.facebook.com/arquitmoderna.oficial"
-                src="facebook.png"
+                src="../facebook_blanco.png"
                 alt="facebook"
               />
             </li>
             <li>
               <BotonLogo
                 href="https://www.instagram.com/arquit.moderna/"
-                src="instagram.png"
+                src="../instagram_blanco.png"
                 alt="twitter"
               />
             </li>
             <li>
               <BotonLogo
                 href="https://www.tiktok.com/@arquitmoderna?lang=es"
-                src="tik-tok.png"
+                src="../tik-tok-blanco.png"
                 alt="twitter"
               />
             </li>

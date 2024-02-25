@@ -6,7 +6,7 @@ import PageWrapper from "../components/PageWrapper";
 const Page = () => {
   return (
     <>
-        <div className="m-12 ">
+        <div className="p-12 bg-[#242526]  ">
           {/* <div className="divider  divider-accent mb-14 ">
             <h1 className="text-2xl font-semibold">PLANOS</h1>
           </div> */}

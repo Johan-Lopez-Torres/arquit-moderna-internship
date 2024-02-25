@@ -5,9 +5,9 @@ import Stats from "./Stats";
 const ServiciosLanding = () => {
   return (
     <>
-      <div className="flex flex-col bg-[#1F2024] ">
+      <div className="flex flex-col bg-[#1F2024] pb-20">
         <div className="flex flex-col justify-center mb-4 mt-20">
-          <h1 className="font-semibold text-5xl text-center text-rojo mb-6">
+          <h1 className="font-semibold text-5xl text-center text-white mb-9">
             Nuestros servicios
           </h1>
         </div>

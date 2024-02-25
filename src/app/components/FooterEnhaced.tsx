@@ -33,7 +33,7 @@ const BotonLogo: React.FC<BotonLogoProps> = ({ href, src, alt, className }) => {
 const FooterEnhaced: React.FC = () => {
   return (
     <>
-      <div className="bg-footer p-11 pb-0">
+      <div className="bg-footer p-11 pb-0 pt-20">
         <nav className="mb-9">
           <div className="flex flex-row justify-center  gap-9 ">
             <BotonLogo

@@ -33,7 +33,9 @@ const Navbar = () => {
             >
               <li className=" ">
                 <a href={` /${servicios}`} className="">
-                  SERVICIOS
+                  <details>
+                    <summary>SERVICIOS</summary>
+                  </details>{" "}
                 </a>
                 <ul
                   className={` ${styles.submenu}  ml-32 -mt-12  p-0   bg-slate-700  flex z-50`}
@@ -68,7 +70,12 @@ const Navbar = () => {
                 <Link href={"/contacto"}>CONTACTO</Link>
               </li>
               <li>
-                <Link href={"#"}>NOSOTROS</Link>
+                <Link href={"#"}>
+                  {" "}
+                  <details>
+                    <summary>NOSOTROS</summary>
+                  </details>{" "}
+                </Link>
               </li>
               <li>
                 <Link href={"/testimonios"}>TESTIMONIOS</Link>
@@ -76,7 +83,11 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/">
-            <img className="btn-ghost w-20 mt-1 object-cover" src="/images/LOGO-COLOR.png" alt="" />
+            <img
+              className="btn-ghost w-20 mt-1 object-cover"
+              src="/images/LOGO-COLOR.png"
+              alt=""
+            />
           </a>
 
           <a
@@ -94,7 +105,12 @@ const Navbar = () => {
               <Link href={"/"}>INICIO</Link>
             </li>
             <li className=" ">
-              <Link href={"/servicios"}>SERVICIOS</Link>{" "}
+              <Link href={"/servicios"}>
+                {" "}
+                <details>
+                  <summary>SERVICIOS</summary>
+                </details>{" "}
+              </Link>{" "}
               <ul
                 className={` ${styles.submenu}  bg-slate-700 justify-center p-0 flex z-50`}
               >
@@ -137,7 +153,12 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link href={"#"}>NOSOTROS</Link>
+              <Link href={"#"}>
+                {" "}
+                <details>
+                  <summary>NOSOTROS</summary>
+                </details>{" "}
+              </Link>
               <ul
                 className={` ${styles.submenu}  bg-slate-700 ml-1.5 p-0 flex z-50`}
               >

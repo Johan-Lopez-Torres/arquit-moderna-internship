@@ -13,7 +13,7 @@ const LoadingBarScroll = async () => {
   });
   return (
     <>
-      <motion.div className="progress-bar z-50  " style={{ scaleX, /* backgroundColor: "#FF0055"  */ }}></motion.div>
+      <motion.div className="progress-bar z-50  " style={{ scaleX, backgroundColor: "#FF0055"  }}></motion.div>
     </>
   );
 };

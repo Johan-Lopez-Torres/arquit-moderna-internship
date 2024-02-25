@@ -10,7 +10,7 @@ const strings = DataServicios[0].GridLayoutProps;
 
 const page = () => {
   return (
-    <div className=" m-16 ">
+    <div className=" m-16 mt-2 ">
       <GridLayoutServicios
         imagen1={imagenes.imagenes[0].src}
         imagen2={imagenes.imagenes[1].src}

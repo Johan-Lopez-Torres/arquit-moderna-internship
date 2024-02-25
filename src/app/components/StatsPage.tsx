@@ -4,10 +4,10 @@ import Stats from "./Stats";
 const StatsPage = () => {
   return (
     <>
-      <div className="h-screen  bg-negro ">
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center  gap-7  ">
+      <div className="h-screen  bg-rojo ">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 justify-items-center  gap-7 py-36 ">
           <figure className="">
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
               <img
                 className="w-40 transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-60 hover:opacity-60 duration-150"
                 src="/images/iconos/hogar.png"
@@ -46,6 +46,7 @@ const StatsPage = () => {
             </div>
             <Stats />
           </figure>
+          
         </div>
       </div>
     </>

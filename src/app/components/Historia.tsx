@@ -4,7 +4,7 @@ import React from "react";
 const Historia = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row min-h-screen p-10">
+      <div className="flex flex-col md:flex-row min-h-screen p-10 gap-3" >
         <div className=" lg:1/2  mr-5">
           <Image
             className="w-full  h-full object-cover rounded-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:opacity-60 duration-150"
@@ -14,8 +14,8 @@ const Historia = () => {
             alt=""
           />
         </div>
-        <div className="w-full lg:w-1/2">
-          <h1 className="text-center font-extrabold text-3xl mb-3">HISTORIA</h1>
+        <div className="w-full lg:w-1/2 bg-footer rounded-2xl p-6">
+          <h1 className="text-center font-extrabold text-3xl mb-3 bg-">HISTORIA</h1>
           <p className="p-4 text-lg leading-relaxed">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. A maiores
             aperiam eos! Exercitationem ducimus culpa perferendis dolore

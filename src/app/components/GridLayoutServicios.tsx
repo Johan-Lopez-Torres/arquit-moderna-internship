@@ -36,7 +36,7 @@ const GridLayoutServicios: React.FC<GridLayoutServiciosProps> = ({
     <>
       {/* IMAGENES GRID */}
       <div className="  text-white">
-        <div className="grid gap-5  lg:max-h-screen  grid-cols-2 grid-rows-5 sm:grid-cols-2 sm:grid-rows-4 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-5 lg:grid-rows-6">
+        <div className="grid gap-8  lg:max-h-screen  grid-cols-2 grid-rows-5 sm:grid-cols-2 sm:grid-rows-4 md:grid-cols-3 md:grid-rows-4 lg:grid-cols-5 lg:grid-rows-6">
           <div className="col-span-1 row-span-2 sm:col-span-1 md:col-span-1 md:row-span-2 lg:col-span-2 lg:row-span-3">
             <ImageComponent image={imagen1} />
           </div>
@@ -48,7 +48,7 @@ const GridLayoutServicios: React.FC<GridLayoutServiciosProps> = ({
           </div>
 
           {/* TEXTO GRID */}
-          <div className=" p-16 col-span-2 row-span-3 row-start-1 sm:col-span-2 sm:row-span-2 sm:row-start-1 md:col-span-3 md:row-span-2 md:row-start-1 lg:col-span-3 lg:row-span-6 bg-negro rounded-xl">
+          <div className=" p-16 col-span-2 row-span-3 row-start-1 sm:col-span-2 sm:row-span-2 sm:row-start-1 md:col-span-3 md:row-span-2 md:row-start-1 lg:col-span-3 lg:row-span-6 bg-[#242526] rounded-xl">
             <h1 className="text-center font-extrabold text-3xl pb-4">
               {titulo}
             </h1>
