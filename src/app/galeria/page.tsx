@@ -1,44 +1,54 @@
-"use server"
-import React from 'react'
+"use server";
+import React from "react";
+
+const images = [
+  "domus (1).png",
+  "domus (2).png",
+  "domus (3).png",
+  "domus (4).png",
+  "domus (5).png",
+  "domus (6).png",
+  "domus (7).png",
+  "domus (8).png",
+  "domus (9).png",
+  "domus (10).png",
+  "domus (11).png",
+  "domus (12).png",
+  "domus (13).png",
+  "domus (14).png",
+  "domus (15).png",
+  "domus (16).png",
+  "domus (17).png",
+  "domus (18).png",
+  "domus (19).png",
+  "domus (20).png",
+  "domus (21).png",
+];
+
+const path = "/images/proyectos/proyecto_domus/";
 
 const page = () => {
   return (
     <>
-    <div className="p-5 md:p-10">
-  <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
-    <img src="https://source.unsplash.com/ztpUS4N1xhY" alt="" />
-    <img src="https://source.unsplash.com/mPFSPqZOO7s" alt="" />
-    <img src="https://source.unsplash.com/uPEnxrdSKIw" alt="" />
-    <img src="https://source.unsplash.com/hFKZ5-OT9Ys" alt="" />
-    <img src="https://source.unsplash.com/xoTt2fjs7d0" alt="" />
-    <img src="https://source.unsplash.com/Vc2dD4l57og" alt="" />
-    <img src="https://source.unsplash.com/hqnQWmIt3cY" alt="" />
-    <img src="https://source.unsplash.com/NTGg2rtWDwg" alt="" />
-    <img src="https://source.unsplash.com/uyX3qAQhZVA" alt="" />
-    <img src="https://source.unsplash.com/LV-NvIcA-Gg" alt="" />
-    <img src="https://source.unsplash.com/mPFSPqZOO7s" alt="" />
-    <img src="https://source.unsplash.com/uPEnxrdSKIw" alt="" />
-    <img src="https://source.unsplash.com/hFKZ5-OT9Ys" alt="" />
-    <img src="https://source.unsplash.com/xoTt2fjs7d0" alt="" />
-    <img src="https://source.unsplash.com/xoTt2fjs7d0" alt="" />
-    <img src="https://source.unsplash.com/xoTt2fjs7d0" alt="" />
-
-    <img src="https://source.unsplash.com/Vc2dD4l57og" alt="" />
-    <img src="https://source.unsplash.com/mPFSPqZOO7s" alt="" />
-    <img src="https://source.unsplash.com/uPEnxrdSKIw" alt="" />
-    <img src="https://source.unsplash.com/hFKZ5-OT9Ys" alt="" />
-    <img src="https://source.unsplash.com/xoTt2fjs7d0" alt="" />
-    <img src="https://source.unsplash.com/Vc2dD4l57og" alt="" />
-    <img src="https://source.unsplash.com/0qnRfgnZIsI" alt="" />
-    <img src="https://source.unsplash.com/mpwF3Mv2UaU" alt="" />
-    <img src="https://source.unsplash.com/gfMWhkDCwYM" alt="" />
-    <img src="https://source.unsplash.com/8KtqjrskUg8" alt="" />
-    <img src="https://source.unsplash.com/qAaGXj-AOv4" alt="" />
-  </div>
-</div>
-
+      <div className="p-5 md:p-10">
+        <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8  ">
+          {images.map((image, index) => (
+            <div key={index} className="relative mb-6  ">
+              <img
+                src={`${path}${image}`}
+                alt={`Image ${index + 1}`}
+                className="w-full h-auto"
+              />
+              <div className="absolute bottom-0 left-0 w-full p-2 bg-negro bg-opacity-70 text-white">
+                <h1 className="font-bold text-md">Proyecto Domus</h1>
+              </div>
+            </div>
+          ))}
+          ima
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

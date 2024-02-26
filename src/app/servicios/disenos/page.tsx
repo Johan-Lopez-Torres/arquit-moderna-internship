@@ -1,4 +1,4 @@
-"use server"
+"use server";
 import GridLayoutServicios from "@/app/components/GridLayoutServicios";
 import React from "react";
 import DataServicios from "@data/Servicios.json";
@@ -17,7 +17,6 @@ const page = () => {
         imagen3={imagenes.imagenes[2].src}
         texto={strings.texto}
         titulo={strings.titulo}
-
       />
     </WrapperPage>
   );
