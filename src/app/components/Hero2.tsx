@@ -12,7 +12,7 @@ export const Hero2 = () => {
         </svg>
         <img
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src="https://www.arch2o.com/wp-content/uploads/2022/10/Arch2O-10-of-the-most-eye-opening-iconic-buildings-of-modern-architecture.jpg"
+          src="\images\proyectos\proyecto_ecuador\ecuador (2).jpeg"
           alt=""
         />
       </div>
