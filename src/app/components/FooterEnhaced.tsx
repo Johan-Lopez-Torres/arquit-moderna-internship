@@ -51,7 +51,11 @@ const FooterEnhaced: React.FC = () => {
               src="tik-tok.png"
               alt="facebook"
             />
-            
+              <BotonLogo
+              href="https://api.whatsapp.com/send?phone=%2B51998871436&data=ARDrhoj9pEKqn5WDajfYErOm7tKsugwN_DgT1NVgLh2wODVZG6PGW3MeRCZVpZ53yHIf5rtGLd_VC6ookbk6uBMvF09mJQSHkA77sJvmG_cehxFR0REXX3CTNAnDiVDUFs5JiMTMCa83Q-zGEQkUauhknA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3LylAZ_n7I_6fdCmDD93NL4BrRocyEM_kGU7o-yLIlw_SrSJ2AZ-qEoKs"
+              src="whatsapp.png"
+              alt="facebook"
+            />
           </div>
         </nav>
         <div className="">
@@ -63,10 +67,12 @@ const FooterEnhaced: React.FC = () => {
                 </h1>
               </a>
               <p className="px-12 pt-0 sm:p-11 sm:pt-0 lg:p-0">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus laboriosam cumque fugiat praesentium, et, nostrum,
-                impedit possimus perspiciatis at voluptatum modi necessitatibus
-                assumenda esse inventore labore vero iusto repellendus nihil?
+                Nuestra pasión por el diseño innovador se refleja en cada
+                proyecto que emprendemos. Desde residencias privadas hasta
+                complejos comerciales, nuestro equipo de expertos en
+                arquitectura trabaja incansablemente para crear espacios que
+                inspiren, eleven y perduren en el tiempo. Confía en nosotros
+                para convertir tus ideas en realidad.
               </p>
             </div>
             <div className="ml-12">
@@ -124,6 +130,30 @@ const FooterEnhaced: React.FC = () => {
             </div>
           </div>
         </div>
+        <nav className="text-center text-2xl">
+          <h1 className="mb-4 font-bold text-indigo-500">Pagos confiables a través de: </h1>
+          <div className="flex flex-row justify-center  gap-9 ">
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="../tarjetas/tarjeta (1).png"
+              alt="facebook"
+              className="w-28"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="../tarjetas/tarjeta (2).png"
+              alt="facebook"
+              className="w-28"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="../tarjetas/tarjeta (3).png"
+              alt="facebook"
+              className="w-28"
+            />
+          
+          </div>
+        </nav>
       </div>
 
       <aside className="flex bg-footer justify-center items-center w-full h-14  border-t-4 border-rojo   ">

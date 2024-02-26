@@ -8,7 +8,7 @@ const Historia = () => {
         <div className=" lg:1/2  mr-5">
           <Image
             className="w-full  h-full object-cover rounded-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90 hover:opacity-60 duration-150"
-            src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg"
+            src="/images/proyectos/limpieza_tanques/tanques (10).jpeg"
             width={500}
             height={500}
             alt=""

@@ -150,6 +150,12 @@ const Navbar = () => {
                 <li>
                   <a href={` /${servicios}/ampliacion`}>AMPLIACIÓN DE OBRA</a>
                 </li>
+                <li>
+                  <a href={` /${servicios}/limpieza`}>LIMPIEZA DE TANQUES</a>
+                </li>
+                <li>
+                  <a href={` /${servicios}/demolicion`}>DEMOLICION</a>
+                </li>
               </ul>
             </li>
             <li>

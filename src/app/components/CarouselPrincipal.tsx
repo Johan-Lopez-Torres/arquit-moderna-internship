@@ -57,7 +57,17 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                 <div
                   className="h-full w-full absolute left-0 top-0 "
                   style={{
-                    background: `url(${image}) center center / cover scroll no-repeat`,
+                    // use the src property of the image object
+                    backgroundImage: `url(${image} )`,
+                    // other styles
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100vw",
+                    height: "100vh",
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
                   }}
                 ></div>
                 <div className="h-full w-full absolute left-0 top-0 bg-black opacity-50"></div>

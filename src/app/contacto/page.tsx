@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="min-h-screen flex-col flex px-20 py-5 my-8 sm:flex-col md:flex-row lg:flex-row  items-center ">
+      <div className="min-h-screen flex-col flex px-20 py-5 my-8 sm:flex-col md:flex-row lg:flex-row  items-center gap-6 ">
         <div className="w-1/2  h-full ">
           <div className=" flex flex-col justify-center  overflow-hidden h-full w-full  max-h-[1250px]  ">
             <div className="h-full w-full p-6  bg-base-300 rounded-md rounded-r-none shadow-md  ">
@@ -12,7 +12,7 @@ const page = () => {
                 CONTÁCTANOS
               </h1>
               <form
-                action="https://formsubmit.co/88361e786313afbbf44db11102edf2b9 "
+                action="https://formsubmit.co/arquit.moderna@gmail.com"
                 method="POST"
                 className="space-y-4"
               >

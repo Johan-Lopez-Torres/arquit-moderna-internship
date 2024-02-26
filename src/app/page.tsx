@@ -11,17 +11,17 @@ import MisionVision from "./components/MisionVision";
 import PageWrapper from "./components/PageWrapper";
 import StatsPage from "./components/StatsPage";
 import { Hero2 } from "./components/Hero2";
+import AboutUs from "./components/AboutUs";
 
 const Page = async () => {
   return (
     <>
       <PageWrapper>
-      <Hero2 />
-      <StatsPage />
-
-
-{/*         <Hero />
- */}
+        <Hero2 />
+        <StatsPage />
+        <AboutUs />
+        {/*         <Hero />
+         */}
         <DemoSlider data={dataSlider} />
         {/*       <BentoGrid />
          */}{" "}

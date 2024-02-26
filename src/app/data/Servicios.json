@@ -31,23 +31,23 @@
     "key": 2,
     "name": "FACHADA 3D",
     "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
-    "image": "https://2.bp.blogspot.com/-L7IwTZqKN8c/T9EhNKcGe1I/AAAAAAAAADM/zg4ejy3WFg4/s1600/FACHADA.jpg",
+    "image": "/images/proyectos/proyecto_gadiel/gadiel (1).png",
     "endpoint": "/servicios/fachada",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://images.homify.com/v1467254760/p/photo/image/1565334/12.1.jpg",
+          "src": "/images/proyectos/cocina/cocina (3).png",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://i.pinimg.com/236x/6b/7e/1f/6b7e1f33659fe70e275eb2e35bcb9638.jpg",
+          "src": "/images/proyectos/cocina/cocina (5).png",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://i.pinimg.com/236x/e1/b2/94/e1b29431d417da436a37c0383e999156.jpg",
+          "src": "/images/proyectos/cocina/cocina (8).png",
           "alt": "imagen 3"
         }
       ],
@@ -59,7 +59,7 @@
     "key": 3,
     "name": "DISEÑO DE INTERIORES Y EXTERIORES",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://i.pinimg.com/236x/82/0b/c9/820bc9d15a0d4420753c7bfab675ee4c.jpg",
+    "image": "/images/proyectos/cocina/cocina (2).png",
     "endpoint": "/servicios/disenos",
     "GridLayoutProps": {
       "imagenes": [
@@ -84,28 +84,28 @@
     "key": 4,
     "name": "CONSTRUCCION DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://www.arkiplus.com/wp-content/uploads/2011/05/que-es-construccion2.jpg",
-    "endpoint": "/servicios/construccion",
+    "image": "/images/proyectos/demolicion/demolicion (10).JPEG",
+    "endpoint": "/servicios/ampliacion",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://gatza.mx/wp-content/uploads/2021/04/2dc698a72ffaade979d6dfb329c60e47.jpeg",
+          "src": "https://www.aram.pe/images/pages/og/57-home-5bc4a2fcb2571.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://www.arkiplus.com/wp-content/uploads/2011/05/que-es-construccion2.jpg",
+          "src": "https://www.proyectosparaconstruir.com/wp-content/uploads/2017/05/render-aereo-recortado.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://images.homify.com/image/upload/c_scale,h_500,w_500/v1437613608/p/photo/image/87231/DSC_0595.jpg",
+          "src": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
           "alt": "imagen 3"
         }
       ],
-      "texto": "La Construcción de Obra es uno de nuestros servicios fundamentales, donde llevamos a cabo la materialización de proyectos arquitectónicos. Desde la cimentación hasta los acabados finales, nos comprometemos a ejecutar cada etapa con precisión y atención al detalle, garantizando la calidad y durabilidad de cada estructura que construimos.",
-      "titulo": "CONSTRUCCION DE OBRA"
+      "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
+      "titulo": "PLANOS"
     }
   },
   {
@@ -140,7 +140,7 @@
     "key": 6,
     "name": "AMPLIACIÓN DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
+    "image": "/images/proyectos/demolicion/demolicion (2).JPEG",
     "endpoint": "/servicios/ampliacion",
     "GridLayoutProps": {
       "imagenes": [
@@ -163,7 +163,62 @@
       "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
       "titulo": "PLANOS"
     }
+  },
+  {
+    "key": 7,
+    "name": "LIMPIEZA DE TANQUES",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "/images/proyectos/limpieza_tanques/tanques (1).jpeg",
+    "endpoint": "/servicios/ampliacion",
+    "GridLayoutProps": {
+      "imagenes": [
+        {
+          "key": 1,
+          "src": "/images/proyectos/limpieza_tanques/tanques (4).jpeg",
+          "alt": "imagen 1"
+        },
+        {
+          "key": 2,
+          "src": "/images/proyectos/limpieza_tanques/tanques (5).jpeg",
+          "alt": "imagen 2"
+        },
+        {
+          "key": 3,
+          "src": "/images/proyectos/limpieza_tanques/tanques (6).jpeg",
+          "alt": "imagen 3"
+        }
+      ],
+      "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
+      "titulo": "LIMPIEZA DE TANQUES"
+    }
+  },
+  {
+    "key": 8,
+    "name": "DEMOLICION",
+    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "image": "/images/proyectos/demolicion/demolicion (8).JPEG",
+    "endpoint": "/servicios/ampliacion",
+    "GridLayoutProps": {
+      "imagenes": [
+        {
+          "key": 1,
+          "src": "/images/proyectos/demolicion/demolicion (6).JPEG",
+          "alt": "imagen 1"
+        },
+        {
+          "key": 2,
+          "src": "/images/proyectos/demolicion/demolicion (4).JPEG",
+          "alt": "imagen 2"
+        },
+        {
+          "key": 3,
+          "src": "/images/proyectos/demolicion/demolicion (5).JPEG",
+          "alt": "imagen 3"
+        }
+      ],
+      "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
+      "titulo": "DEMOLICION"
+    }
   }
  
-  
 ]

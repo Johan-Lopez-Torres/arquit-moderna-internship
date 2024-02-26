@@ -3,6 +3,8 @@
 import React from "react";
 import { CardEmployee } from "../../components/Card";
 import PageWrapper from "../../components/PageWrapper";
+import Cuadro from "@/app/components/cuadro";
+import { WrapperPage } from "@/app/components/utils";
 
 const page = () => {
   return (

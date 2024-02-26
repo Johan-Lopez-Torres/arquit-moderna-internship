@@ -55,12 +55,11 @@ export default function Home() {
                       />
                     </div>
                     <div className="p-3">
-                      <h1 className="text-center text-teal-600 font-extrabold">
+                      <h1 className="text-center text-base text-teal-600 font-extrabold">
                         OFICINAS DE ARQUIT MODERNA
                       </h1>
-                      <p className="text-slate-500 font-bold">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
+                      <p className="text-negro font-bold">
+                      Av. Pacifico Mz C1 Lt 3A - URB Casuarinas II Etapa - 4to Piso
                       </p>
                     </div>
                   </div>
