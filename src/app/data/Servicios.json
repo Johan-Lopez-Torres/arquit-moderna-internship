@@ -166,30 +166,30 @@
   },
   {
     "key": 7,
-    "name": "LIMPIEZA DE TANQUES",
+    "name": "MUEBLES PERSONALIZADOS",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
-    "image": "/images/proyectos/limpieza_tanques/tanques (1).jpeg",
-    "endpoint": "/servicios/ampliacion",
+    "image": "https://mueblesnataliamoreno.es/wp-content/uploads/2022/04/4e1cf190-598e-4f52-b134-a2d6158e4bb5.jpg",
+    "endpoint": "/servicios/limpieza",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "/images/proyectos/limpieza_tanques/tanques (4).jpeg",
+          "src": "https://www.moblesboix.com//media/images/projectes/vestidores/1-.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "/images/proyectos/limpieza_tanques/tanques (5).jpeg",
+          "src": "https://www.armafal.com/vestidores-con-o-sin-puertas-cuales-son-los-mas-comodos_img68819t1.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "/images/proyectos/limpieza_tanques/tanques (6).jpeg",
+          "src": "https://www.moblesboix.com//media/images/projectes/vestidores/1-.jpg",
           "alt": "imagen 3"
         }
       ],
       "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
-      "titulo": "LIMPIEZA DE TANQUES"
+      "titulo": "MUEBLES PERSONALIZADOS"
     }
   },
   {

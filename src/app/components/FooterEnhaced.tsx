@@ -51,7 +51,7 @@ const FooterEnhaced: React.FC = () => {
               src="tik-tok.png"
               alt="facebook"
             />
-              <BotonLogo
+            <BotonLogo
               href="https://api.whatsapp.com/send?phone=%2B51998871436&data=ARDrhoj9pEKqn5WDajfYErOm7tKsugwN_DgT1NVgLh2wODVZG6PGW3MeRCZVpZ53yHIf5rtGLd_VC6ookbk6uBMvF09mJQSHkA77sJvmG_cehxFR0REXX3CTNAnDiVDUFs5JiMTMCa83Q-zGEQkUauhknA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3LylAZ_n7I_6fdCmDD93NL4BrRocyEM_kGU7o-yLIlw_SrSJ2AZ-qEoKs"
               src="whatsapp.png"
               alt="facebook"
@@ -66,7 +66,7 @@ const FooterEnhaced: React.FC = () => {
                   ARQUIT MODERNA
                 </h1>
               </a>
-              <p className="px-12 pt-0 sm:p-11 sm:pt-0 lg:p-0">
+              <p className="px-3 pt-0  sm:pt-0 lg:p-0">
                 Nuestra pasión por el diseño innovador se refleja en cada
                 proyecto que emprendemos. Desde residencias privadas hasta
                 complejos comerciales, nuestro equipo de expertos en
@@ -131,7 +131,9 @@ const FooterEnhaced: React.FC = () => {
           </div>
         </div>
         <nav className="text-center text-2xl">
-          <h1 className="mb-4 font-bold text-indigo-500">Pagos confiables a través de: </h1>
+          <h1 className="mb-4 font-bold text-indigo-500">
+            Pagos confiables a través de:{" "}
+          </h1>
           <div className="flex flex-row justify-center items-center gap-9 ">
             <BotonLogo
               href="https://www.facebook.com/?locale=es_LA"
@@ -157,13 +159,12 @@ const FooterEnhaced: React.FC = () => {
               alt="facebook"
               className="w-16"
             />
-             <BotonLogo
+            <BotonLogo
               href="https://www.facebook.com/?locale=es_LA"
               src="../tarjetas/tarjeta (5).png"
               alt="facebook"
               className="w-44"
             />
-          
           </div>
         </nav>
       </div>

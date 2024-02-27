@@ -45,7 +45,7 @@ const MisionVision = () => {
               alt=""
             />
           </div>
-        </div>div
+        </div>
       </div>
     </>
   );

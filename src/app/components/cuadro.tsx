@@ -6,12 +6,11 @@ const Cuadro = () => {
       <div className="w-full  py-6 mx-auto loopple-min-height-78vh text-slate-500 px-14 ">
         <div className="flex flex-wrap -mx-3 removable ">
           <div className="w-full max-w-full px-3 mb-4 sm:w-full sm:flex-none ">
-            <div className=" shadow-soft-xl relative flex h-full min-w-0 flex-col break-words rounded-2xl  p-4 mb-4 ">
+            <div className=" shadow-soft-xl relative flex h-full min-w-0 flex-col break-words rounded-2xl  p-4 mb-4  ">
               <div
-                className="relative h-full overflow-hidden bg-cover py-6 rounded-xl"
+                className="relative h-full overflow-hidden bg-cover py-6 rounded-xl  "
                 style={{
-                  backgroundImage:
-                    "url(https://www.10wallpaper.com/wallpaper/1366x768/1705/Cities_Architecture_HD_Photography_Wallpaper_12_1366x768.jpg)",
+                  backgroundImage: "url(/images/proyectos/ruta_unida/2.png)",
                 }}
               >
                 <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-gradient-to-tl from-gray-800 to-slate-800 opacity-60"></span>
