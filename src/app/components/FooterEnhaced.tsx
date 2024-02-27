@@ -132,7 +132,7 @@ const FooterEnhaced: React.FC = () => {
         </div>
         <nav className="text-center text-2xl">
           <h1 className="mb-4 font-bold text-indigo-500">Pagos confiables a través de: </h1>
-          <div className="flex flex-row justify-center  gap-9 ">
+          <div className="flex flex-row justify-center items-center gap-9 ">
             <BotonLogo
               href="https://www.facebook.com/?locale=es_LA"
               src="../tarjetas/tarjeta (1).png"
@@ -150,6 +150,18 @@ const FooterEnhaced: React.FC = () => {
               src="../tarjetas/tarjeta (3).png"
               alt="facebook"
               className="w-28"
+            />
+            <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="../tarjetas/tarjeta (4).png"
+              alt="facebook"
+              className="w-16"
+            />
+             <BotonLogo
+              href="https://www.facebook.com/?locale=es_LA"
+              src="../tarjetas/tarjeta (5).png"
+              alt="facebook"
+              className="w-44"
             />
           
           </div>

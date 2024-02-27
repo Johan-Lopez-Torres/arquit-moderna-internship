@@ -3,7 +3,7 @@ import React from "react";
 const Stats = () => {
   return (
     <>
-      <div className="stat">
+      <div className="stat p-0">
         <div className="stat-figure text-primary"></div>
         <div className="stat-title flex justify-center">Total Likes</div>
         <div className="stat-value text-white flex justify-center">25.6K</div>

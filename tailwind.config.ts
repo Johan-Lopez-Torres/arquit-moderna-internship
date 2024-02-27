@@ -68,7 +68,7 @@ const config: Config = {
 
           warning: "#ffb230",
 
-          error: "#ff6e8d",
+          error: "#E91E31",
         },
       },
     ],

@@ -16,24 +16,23 @@ const Cuadro = () => {
               >
                 <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-gradient-to-tl from-gray-800 to-slate-800 opacity-60"></span>
                 <div className="relative z-10 flex flex-col flex-auto h-full p-4 ">
-                  <h2 className="pt-2 mb-6 font-bold text-gray-300 text-3xl text-end">
-                  Diseño, innovación <br /> y calidad en cada proyecto
+                  <h2 className="pt-2 mb-6 font-bold text-gray-300 text-lg sm:text-3xl text-end">
+                    Diseño, innovación <br /> y calidad en cada proyecto
                   </h2>
                   <div>
-                      <h1 className="pl-44  text-6xl text-white font-extrabold">SERVICIOS</h1>
+                    <h1 className=" p-5 text-3xl sm:text-4xl md:text-6xl md:pl-44   text-white font-extrabold">
+                      SERVICIOS
+                    </h1>
                   </div>
 
-                  <a 
-                    className=" mt-auto mb-0 font-semibold leading-normal text-rojo group text-size-sm text-end"
-                    href="/servicios"
-                  >
-                    Leer más
-                    <i
-                      className="fas fa-arrow-right ease-bounce text-size-sm group-hover:translate-x-1.25 ml-1 leading-normal transition-all duration-200"
-                      aria-hidden="true"
-                      data-selected="selected-icon-hover"
-                    ></i>
-                  </a>
+                  <div className="flex flex-row justify-end">
+                    <a
+                      className="btn btn-error  mt-auto mb-0  leading-normal text-white font-bold group text-size-sm text-end"
+                      href="/servicios"
+                    >
+                      Leer más
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

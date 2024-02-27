@@ -11,6 +11,8 @@ const Navbar = () => {
     <>
       <div className=" navbar bg-negro px-10 sm:flex sm:justify-center justify-center">
         <div className="navbar-start flex justify-center md:justify-start">
+        
+          <div className="flex justify-center items-center">
           <div className="dropdown flex lg:justify-evenly  ">
             <div tabIndex={0} role="button" className="btn btn-ghost cm:hidden">
               <svg
@@ -82,20 +84,20 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a href="/">
-            <img
-              className="btn-ghost w-20 mt-1 object-cover"
-              src="/images/LOGO-COLOR.png"
-              alt=""
-            />
-          </a>
-
-          <a
-            href="/"
-            className="btn btn-ghost text-3xl text-white  font-extrabold pr-1  "
-          >
-            ARQUIT MODERNA
-          </a>
+            <a href="/" className="flex-shrink-0">
+              <img
+                className="w-20 mt-1 object-cover"
+                src="/images/LOGO-COLOR.png"
+                alt="Logo"
+              />
+            </a>
+            <a
+              href="/"
+              className="btn btn-ghost text-3xl text-white font-extrabold pr-1"
+            >
+              ARQUIT MODERNA
+            </a>
+          </div>
         </div>
         <div className="navbar-center hidden cm:flex">
           <ul
