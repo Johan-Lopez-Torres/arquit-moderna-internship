@@ -2,7 +2,7 @@
   {
     "key": 1,
     "name": "PLANOS",
-    "description": "Transformamos espacios para reflejar su estilo y personalidad.",
+    "description": "Detallados esquemas y dibujos técnicos para visualizar y ejecutar proyectos arquitectónicos",
     "image": "https://i.pinimg.com/222x/58/af/59/58af59ebe2aa9296971bad84f1f7378e.jpg",
     "endpoint": "/servicios/planos",
     "GridLayoutProps": {
@@ -30,7 +30,7 @@
   {
     "key": 2,
     "name": "FACHADA 3D",
-    "description": "Diseñamos comunidades sostenibles y funcionalmente eficientes.",
+    "description": "Representaciones tridimensionales realistas de la fachada de edificaciones",
     "image": "/images/proyectos/proyecto_gadiel/gadiel (1).png",
     "endpoint": "/servicios/fachada",
     "GridLayoutProps": {
@@ -58,7 +58,7 @@
   {
     "key": 3,
     "name": "DISEÑO DE INTERIORES Y EXTERIORES",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": "Creación de ambientes armoniosos  tanto en el interior como en el exterior",
     "image": "/images/proyectos/cocina/cocina (2).png",
     "endpoint": "/servicios/disenos",
     "GridLayoutProps": {
@@ -83,7 +83,7 @@
   {
     "key": 4,
     "name": "CONSTRUCCION DE OBRA",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": "Realización física de proyectos arquitectónicos, desde cimientos hasta acabados, ",
     "image": "/images/proyectos/demolicion/demolicion (10).JPEG",
     "endpoint": "/servicios/construccion",
     "GridLayoutProps": {
@@ -111,7 +111,7 @@
   {
     "key": 5,
     "name": "REMODELACION ",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": "Transformación y modernización de espacios existentes para adaptarlos a nuevas necesidades estéticas",
     "image": "https://wtcradio.net/wp-content/uploads/2023/06/IMG_6847.png",
     "endpoint": "/servicios/remodelacion",
     "GridLayoutProps": {
@@ -139,7 +139,7 @@
   {
     "key": 6,
     "name": "AMPLIACIÓN",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": "Expansión de construcciones existentes, añadiendo nuevos espacios de acuerdo con requerimientos específicos del cliente",
     "image": "/images/proyectos/demolicion/demolicion (2).JPEG",
     "endpoint": "/servicios/ampliacion",
     "GridLayoutProps": {
@@ -167,7 +167,7 @@
   {
     "key": 7,
     "name": "MUEBLES PERSONALIZADOS",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": " Diseño y fabricación a medida de mobiliario único, adaptado a las preferencias y estilo de vida de cada cliente",
     "image": "https://mueblesnataliamoreno.es/wp-content/uploads/2022/04/4e1cf190-598e-4f52-b134-a2d6158e4bb5.jpg",
     "endpoint": "/servicios/muebles",
     "GridLayoutProps": {
@@ -195,7 +195,7 @@
   {
     "key": 8,
     "name": "DEMOLICION",
-    "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
+    "description": "Desmantelamiento seguro y controlado de estructuras para preparar el terreno para nuevos proyectos arquitectónicos",
     "image": "/images/proyectos/demolicion/demolicion (8).JPEG",
     "endpoint": "/servicios/demolicion",
     "GridLayoutProps": {
@@ -220,5 +220,4 @@
       "titulo": "DEMOLICION"
     }
   }
- 
 ]
