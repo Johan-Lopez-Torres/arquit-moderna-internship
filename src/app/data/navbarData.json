@@ -66,6 +66,16 @@
       "id": 6,
       "name": "AMPLIACIÓN DE OBRA",
       "url": "servicios/ampliacion"
+    },
+    {
+      "id": 7,
+      "name": "MUESBLES PERSONALIZADOS",
+      "url": "servicios/muebles"
+    },
+    {
+      "id": 8,
+      "name": "DEMOLICION",
+      "url": "servicios/demolicion"
     }
    
   ]
