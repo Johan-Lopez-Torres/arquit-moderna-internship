@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "DISEÑO INNOVADOR",
+    "title": "FACHADA 3D",
     "tagline": "TRANSFORMAMOS IDEAS EN REALIDAD",
     "image": "/images/proyectos/ruta_unida/1.png",
     "buttons": [
       {
         "id": 1,
-        "text": "FACHADA 3D",
+        "text": "",
         "link": "/",
         "type": "btn-dark btn-circle"
       }
@@ -15,13 +15,13 @@
   },
   {
     "id": 2,
-    "title": "DISEÑO INNOVADOR",
+    "title": "DISEÑO DE INTERIORES",
     "tagline": "Tu Visión, Nuestra Creación",
     "image": "/images/proyectos/ruta_unida/2.png",
     "buttons": [
       {
         "id": 1,
-        "text": "DISEÑO DE INTERIORES",
+        "text": "",
         "link": "/",
         "type": "btn-dark btn-circle"
       }
@@ -29,13 +29,13 @@
   },
   {
     "id": 3,
-    "title": "DISEÑO INNOVADOR",
-    "tagline": "IF YOU LIKE IT",
+    "title": "DISEÑO DE COCINA",
+    "tagline": "Tu Visión, Nuestra Creación",
     "image": "/images/proyectos/ruta_unida/3.png",
     "buttons": [
       {
         "id": 1,
-        "text": "DISEÑO DE EXTERIOR",
+        "text": "",
         "link": "/",
         "type": "btn-dark btn-circle"
       }
@@ -43,13 +43,13 @@
   },
   {
     "id": 4,
-    "title": "ITS JUST A EXAMPLE",
+    "title": "DISEÑO DE EXTERIORES",
     "tagline": "Tu Visión, Nuestra Creación",
     "image": "/images/proyectos/ruta_unida/4.png",
     "buttons": [
       {
         "id": 1,
-        "text": "DISEÑO DE COCINA",
+        "text": "",
         "link": "/",
         "type": "btn-dark btn-circle"
       }

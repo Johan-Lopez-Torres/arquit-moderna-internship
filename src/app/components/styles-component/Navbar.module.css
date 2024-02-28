@@ -2,16 +2,30 @@
 
 .submenu {
   position: absolute;
-  width: 150px;
+  width: 160px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-61%);
   display: none;
 }
 
 
+
+
+.submenuNuevo {
+  position: absolute;
+  width: 130px;
+  left: 50%;
+  transform: translateX(-54%);
+  display: none;
+}
+
+
+.menu li:hover > .submenuNuevo {
+  display: block;
+}
 .submenu2 {
   position: absolute;
-  left: 100%;
+  left: 500%;
   width: 140px;
   top: 0;
   display: none;
@@ -24,9 +38,8 @@
   display: block;
 }
 
-
 .menu > li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .menu a:hover {

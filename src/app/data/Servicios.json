@@ -37,17 +37,17 @@
       "imagenes": [
         {
           "key": 1,
-          "src": "/images/proyectos/cocina/cocina (3).png",
+          "src": "/images/proyectos/bruces/Enscape_.png",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "/images/proyectos/cocina/cocina (5).png",
+          "src": "/images/proyectos/proyecto_gadiel/gadiel (1).png",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "/images/proyectos/cocina/cocina (8).png",
+          "src": "/images/proyectos/bruces/r4.png",
           "alt": "imagen 3"
         }
       ],
@@ -85,32 +85,32 @@
     "name": "CONSTRUCCION DE OBRA",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "/images/proyectos/demolicion/demolicion (10).JPEG",
-    "endpoint": "/servicios/ampliacion",
+    "endpoint": "/servicios/construccion",
     "GridLayoutProps": {
       "imagenes": [
         {
           "key": 1,
-          "src": "https://www.aram.pe/images/pages/og/57-home-5bc4a2fcb2571.jpg",
+          "src": "/images/proyectos/demolicion/demolicion (1).JPEG",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://www.proyectosparaconstruir.com/wp-content/uploads/2017/05/render-aereo-recortado.jpg",
+          "src": "/images/proyectos/demolicion/demolicion (2).JPEG",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
+          "src": "/images/proyectos/demolicion/demolicion (1).jpg",
           "alt": "imagen 3"
         }
       ],
       "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
-      "titulo": "PLANOS"
+      "titulo": "CONSTRUCCION DE OBRA"
     }
   },
   {
     "key": 5,
-    "name": "REMODELACION DE OBRA",
+    "name": "REMODELACION ",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "https://wtcradio.net/wp-content/uploads/2023/06/IMG_6847.png",
     "endpoint": "/servicios/remodelacion",
@@ -118,27 +118,27 @@
       "imagenes": [
         {
           "key": 1,
-          "src": "https://wtcradio.net/wp-content/uploads/2023/06/IMG_6847.png",
+          "src": "https://img.freepik.com/fotos-premium/proceso-construccion-remodelacion-renovacion-ampliacion-restauracion-reconstruccion_73110-4935.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://www.eluniversal.com.co/binrepository/675x450/38c0/600d450/none/13704/RWLQ/acabados-de-una-vivienda_7162872_20221227093749.jpg",
+          "src": "/images/antes_despues/antes.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://i0.wp.com/oniria.pe/wp-content/uploads/2019/06/2b-2-765x1024.jpg?resize=574%2C768",
+          "src": "/images/antes_despues/despues.jpg",
           "alt": "imagen 3"
         }
       ],
       "texto": "Enfocados en la renovación y mejora de espacios existentes, nuestro servicio de Remodelación de Obra busca actualizar y modernizar estructuras arquitectónicas, manteniendo siempre su integridad y encanto originales. Desde pequeñas renovaciones hasta transformaciones completas, trabajamos en estrecha colaboración con nuestros clientes para lograr resultados excepcionales.",
-      "titulo": "REMODELACION DE OBRA"
+      "titulo": "REMODELACION"
     }
   },
   {
     "key": 6,
-    "name": "AMPLIACIÓN DE OBRA",
+    "name": "AMPLIACIÓN",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "/images/proyectos/demolicion/demolicion (2).JPEG",
     "endpoint": "/servicios/ampliacion",
@@ -146,22 +146,22 @@
       "imagenes": [
         {
           "key": 1,
-          "src": "https://www.aram.pe/images/pages/og/57-home-5bc4a2fcb2571.jpg",
+          "src": "https://www.eiql.com.pe/wp-content/uploads/2018/04/retirar-muros-de-carga-en-vivienda-675x413.jpg",
           "alt": "imagen 1"
         },
         {
           "key": 2,
-          "src": "https://www.proyectosparaconstruir.com/wp-content/uploads/2017/05/render-aereo-recortado.jpg",
+          "src": "https://i.pinimg.com/originals/5a/2b/9e/5a2b9ec75605c9a247c2e1860ec58b91.jpg",
           "alt": "imagen 2"
         },
         {
           "key": 3,
-          "src": "https://images.adsttc.com/media/images/5128/49cc/b3fc/4b11/a700/3c06/medium_jpg/1275073623-padilla-nicas-valdemorillo-18.jpg?1424367414",
+          "src": "https://immaka.com.ec/wp-content/uploads/2022/10/remodelaciones-aumentan-valor-casa-scaled.jpg",
           "alt": "imagen 3"
         }
       ],
       "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
-      "titulo": "PLANOS"
+      "titulo": "AMPLIACION"
     }
   },
   {
@@ -169,7 +169,7 @@
     "name": "MUEBLES PERSONALIZADOS",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "https://mueblesnataliamoreno.es/wp-content/uploads/2022/04/4e1cf190-598e-4f52-b134-a2d6158e4bb5.jpg",
-    "endpoint": "/servicios/limpieza",
+    "endpoint": "/servicios/muebles",
     "GridLayoutProps": {
       "imagenes": [
         {
@@ -188,7 +188,7 @@
           "alt": "imagen 3"
         }
       ],
-      "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
+      "texto": "Descubre un mundo donde tus ideas de diseño toman vida. Nuestro servicio de muebles personalizados te ofrece la oportunidad de crear piezas únicas que reflejen tu estilo y personalidad. Desde sofás hasta mesas, cada mueble es meticulosamente elaborado con los mejores materiales y una atención inigualable al detalle. Convierte tu hogar en un reflejo de ti mismo con nuestros muebles a medida, diseñados para superar tus expectativas.",
       "titulo": "MUEBLES PERSONALIZADOS"
     }
   },
@@ -197,7 +197,7 @@
     "name": "DEMOLICION",
     "description": "Recuperamos y preservamos la belleza arquitectónica del pasado.",
     "image": "/images/proyectos/demolicion/demolicion (8).JPEG",
-    "endpoint": "/servicios/ampliacion",
+    "endpoint": "/servicios/demolicion",
     "GridLayoutProps": {
       "imagenes": [
         {
@@ -216,7 +216,7 @@
           "alt": "imagen 3"
         }
       ],
-      "texto": "La Ampliación de Obra es una solución ideal para quienes buscan expandir sus espacios habitables o comerciales. Con un enfoque en la integración armónica con la estructura existente, nuestro equipo desarrolla y ejecuta proyectos de ampliación que cumplen con los más altos estándares de calidad y diseño, brindando a nuestros clientes la funcionalidad adicional que necesitan sin comprometer la estética ni la integridad del edificio original.",
+      "texto": "En nuestro servicio de demolición, ofrecemos soluciones expertas para derribar estructuras de manera segura y eficiente. Ya sea una demolición parcial o completa, nuestro equipo altamente capacitado utiliza técnicas avanzadas y equipos especializados para llevar a cabo cada proyecto. Desde la evaluación inicial hasta la limpieza final del sitio, nos comprometemos a garantizar un proceso sin complicaciones y resultados excepcionales. ",
       "titulo": "DEMOLICION"
     }
   }
