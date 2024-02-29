@@ -139,7 +139,7 @@
   {
     "key": 6,
     "name": "AMPLIACIÓN",
-    "description": "Expansión de construcciones existentes, añadiendo nuevos espacios de acuerdo con requerimientos específicos del cliente",
+    "description": "Expansión de construcciones existentes, añadiendo nuevos espacios de acuerdo con requerimientos específicos",
     "image": "/images/proyectos/demolicion/demolicion (2).JPEG",
     "endpoint": "/servicios/ampliacion",
     "GridLayoutProps": {
@@ -167,7 +167,7 @@
   {
     "key": 7,
     "name": "MUEBLES PERSONALIZADOS",
-    "description": " Diseño y fabricación a medida de mobiliario único, adaptado a las preferencias y estilo de vida de cada cliente",
+    "description": " Diseño y fabricación a medida de mobiliario único, adaptado a las preferencias y estilo de vida",
     "image": "https://mueblesnataliamoreno.es/wp-content/uploads/2022/04/4e1cf190-598e-4f52-b134-a2d6158e4bb5.jpg",
     "endpoint": "/servicios/muebles",
     "GridLayoutProps": {
